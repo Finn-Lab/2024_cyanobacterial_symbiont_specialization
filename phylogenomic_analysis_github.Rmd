@@ -1,0 +1,1117 @@
+---
+title: "Diversity and specificity of molecular functions in cyanobacterial symbionts"
+author: "Ellen S. Cameron"
+date: "2024-03-01"
+output: html_document
+---
+
+# Diversity and specificity of molecular functions in cyanobacterial symbionts
+
+## Comparative phylogenomic analyses to explore specialization in molecular functions 
+
+This is an R Markdown document containing the analyses for Cameron et al. (2024) **Diversity and specificity of molecular functions in cyanobacterial symbionts**. Input data for KEGG annotations and pathway completeness generated using KofamScan and KEGGDecoder, and for biosynthetic gene clusters generated using SanntiS as described in Cameron et al., (2024). 
+
+## Packages & Custom Functions
+```{r, include = FALSE}
+# load required packages
+library(ggplot2)
+library(ggtree)
+library(ape)
+library(ComplexHeatmap)
+library(caper)
+library(castor)
+library(tidyverse)
+library(phylolm)
+
+`%notin%` <- Negate(`%in%`)
+
+# functions
+withWarnings <- function(expr) {
+    myWarnings <- NULL
+    wHandler <- function(w) {
+        myWarnings <<- c(myWarnings, list(w))
+        invokeRestart("muffleWarning")
+    }
+    val <- withCallingHandlers(expr, warning = wHandler)
+    list(value = val, warnings = myWarnings)
+} 
+
+`%notin%` <- Negate(`%in%`)
+
+get_phyloglm_results <- function(x){
+  df_list <- vector("list", length = length(x))
+  names(df_list) <- names(x)
+  
+  for (i in 1:length(x)){
+    kegg_function <- names(x)[i]
+    group_id <- names(summary(x[[i]]$value)$coefficients[,1])
+    estimate_co <- summary(x[[i]]$value)$coefficients[,1]
+    stderr <- summary(x[[i]]$value)$coefficients[,2]
+    zvalue <- summary(x[[i]]$value)$coefficients[,3]
+    upper_ci <- summary(x[[i]]$value)$coefficients[,4]
+    lower_ci <- summary(x[[i]]$value)$coefficients[,5]
+    p.value <- summary(x[[i]]$value)$coefficients[,6]
+    
+    summarydf <- data.frame("kegg_function" = kegg_function,"group" = group_id, "coeff" = estimate_co, "stderr" = stderr, "zvalue" = zvalue, "upper_ci" = upper_ci, "lower_ci" = lower_ci, "p.value" = p.value)
+    rownames(summarydf) <- NULL
+    df_list[[i]] <- summarydf
+  }
+  summary_results_df <- do.call(rbind, df_list)
+  rownames(summary_results_df) <- NULL
+  summary_results_df
+}
+
+get_kofamscan_df <- function(kofampath){
+  kofamscan_df <- read.table(kofampath, header = FALSE, sep = "\t", fill = TRUE, col.names = c("sample_seq", "KEGG"))
+  kofamscan_df <- kofamscan_df[kofamscan_df$KEGG != "",]
+  kofamscan_df
+}
+
+kofamscan_bulk <- function(kofamdirpath){
+  kofamfiles <- list.files(kofamdirpath)
+  kofamfilepaths <- paste0(kofamdirpath,kofamfiles)
+  kofamfilelist <- vector("list",length(kofamfiles))
+
+  kofam_full_list <- vector("list", length(kofamfiles))
+  kofam_files_broken <- c()
+  
+  for (i in 1:length(kofamfilelist)){
+    kofamsample <- gsub("_ko[.]txt", "",kofamfiles[i])
+    print(kofamsample)
+    kofam_full_df <- get_kofamscan_df(kofamfilepaths[i])
+    print(head(kofam_full_df))
+    #print(ncol(kofam_full_df))
+    kofam_full_df$sample_id <- kofamsample
+    kofam_full_list[[i]] <- kofam_full_df
+    }
+  #kofam_full_list
+  kofam_full_df <- do.call(rbind, kofam_full_list)
+  kofam_full_df
+}
+```
+
+## Taxonomic distribution and occurence of symbionts across phylum Cyanobacteria
+
+### Metadata preparation
+```{r, include = FALSE}
+metadata <- read.csv("/data/cyano_habitats.csv")
+
+colnames(metadata)[1] <- "genome"
+metadata_noncbitax <- metadata[, c("genome", "isolation_source_host_focus","isolation_source","habitat_classification")]
+
+#gtdbtk taxonomy
+allcyano_gtdbtk <- read.table("/data/all_cyano_gtdbk_classify.tsv", sep = "\t",header = TRUE)
+
+taxonomy_levels <- vector("list", length = 7)
+names(taxonomy_levels) <- c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+
+for (i in 1:nrow(allcyano_gtdbtk)){
+  classify <- allcyano_gtdbtk$classification[[i]]
+  classify_levels <- unlist(strsplit(classify, ";"))
+  
+  for (j in 1:(length(taxonomy_levels))){
+    taxid <- unlist(strsplit(classify_levels[[j]], "__"))
+
+    if (length(taxid) > 1){
+     taxonomy_levels[[j]][i] <- taxid[2]
+    }else{
+     taxonomy_levels[[j]][i] <- "Unassigned"
+    }
+  }
+}
+
+gtdbtk_tax_df <- data.frame("genome" = allcyano_gtdbtk$user_genome, taxonomy_levels)
+colnames(gtdbtk_tax_df)[1] <- "accession"
+gtdbtk_ofgs_df <- gtdbtk_tax_df[,c("accession", "Order","Family","Genus","Species")]
+
+metadata_noncbitax <- metadata[,c(1,4,5,7,8)]
+colnames(metadata_noncbitax)[1] <- "accession"
+metadata_gtdbtktax <- merge(metadata_noncbitax, gtdbtk_ofgs_df)
+
+metadata_gtdbtktax$simple_habitat <- "Host-associated"
+metadata_gtdbtktax[metadata_gtdbtktax$habitat_classification %in% c("Aquatic", "Terrestrial"),]$simple_habitat <- "Free-living"   
+
+highq_cyanoaccessions <- readLines("/data/checkm_checkm2_highq_habitatannotation_accessions.txt")
+
+outgroup_orders <- c("Vampirovibrionales","Obscuribacterales","Gastranaerophilales")
+outgroup_accessions <- gtdbtk_tax_df[gtdbtk_tax_df$Order %in% outgroup_orders,]$genome
+
+highq_cyanos_only <- highq_cyanoaccessions[highq_cyanoaccessions %notin% outgroup_accessions]
+
+unspecified_habitat_accessions <- metadata_gtdbtktax[metadata_gtdbtktax$habitat_classification == "Unspecified"& metadata_gtdbtktax$Order %notin% outgroup_orders,]$genome
+
+# high-quality completeness metadata genomes only
+metadata_gtdbtktax_highq <- metadata_gtdbtktax[metadata_gtdbtktax$accession %in% highq_cyanoaccessions & metadata_gtdbtktax$Order %notin% outgroup_orders,]
+
+# high quality completeness metadata and Melainabacteria outgroup genomes only
+metadata_gtdbtktax_highq_outgroup <- metadata_gtdbtktax[metadata_gtdbtktax$accession %in% highq_cyanoaccessions | metadata_gtdbtktax$Order %in% outgroup_orders,]
+
+# Nostocaceae family classified genomes metadata only
+metadata_gtdbtktax_nostocaceae <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Family == "Nostocaceae",]
+
+# list of genera with host-associated cyanobacterial symbionts occurences
+symbiont_nostocaceae_genus <- unique(metadata_gtdbtktax_nostocaceae[metadata_gtdbtktax_nostocaceae$simple_habitat == "Host-associated",]$Genus)
+
+# symbiont genera genome metadata
+metadata_gtdbtk_nostoc_genus_symbionts <- metadata_gtdbtktax_nostocaceae[metadata_gtdbtktax_nostocaceae$Genus %in% c(symbiont_nostocaceae_genus, "Nostoc_B"),]
+```
+### Lifestyle distribution in phylum Cyanobacteria 
+```{r, include = FALSE}
+allcyano_habitatcounts <- metadata_gtdbtktax_highq %>% group_by(Order, isolation_source_host_focus) %>% summarize(count = n()) %>% distinct()
+
+allcyano_habitatcounts$countgroup <- "small"
+allcyano_habitatcounts[allcyano_habitatcounts$Order %in% c("Cyanobacteriales", "PCC-6307"),]$countgroup <- "large"
+
+allcyano_order_counts <- metadata_gtdbtktax_highq %>% group_by(Order) %>% summarize(count = n()) 
+allcyano_order_counts <- allcyano_order_counts[order(allcyano_order_counts$count, decreasing = TRUE),]
+
+allcyano_habitatcounts$Order <- factor(allcyano_habitatcounts$Order, levels = allcyano_order_counts$Order)
+
+habclass_colours <- as.data.frame(matrix(c("Aquatic", "#dddddd",
+                                  "Aquatic Macrophyte", "#3ca8bc",
+                                  "Azolla (Water Fern)", "#98d9e4",
+                                  "Bottlenose Dolphin", "#4e9f50",
+                                  "Bryophyte", "#87d180",
+                                  "Cycad", "#466f9d",
+                                  "Diatom", "#91b3d7",
+                                  "Fruit Tree", "#638666",
+                                  "Haptophyte", "#a2ceaa",
+                                  "Lichen","#9467bd",
+                                  "Rhodophyta","#c6c1f0",
+                                  "Terrestrial","#4b4b4b"), ncol = 2, byrow = TRUE))
+habclass_cols <- habclass_colours$V2
+names(habclass_cols) <- habclass_colours$V1
+
+habitat_bar_count_all <- ggplot(allcyano_habitatcounts, aes(x = Order, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Order", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 605))+scale_fill_manual(values = habclass_cols)+scale_color_manual(values = habclass_cols)+theme(axis.text.x = element_text(angle = 60, hjust = 1, size = 14), axis.text.y = element_text(size = 14), axis.title = element_text(size = 16), legend.text = element_text(size = 14), legend.title = element_text(size = 16))
+
+habitat_bar_count_small <- ggplot(allcyano_habitatcounts[allcyano_habitatcounts$countgroup == "small",], aes(x = Order, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Order", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 33))+scale_fill_manual(values = c(habclass_cols))+scale_color_manual(values = c(habclass_cols))+theme( legend.position = "none", axis.title.x = element_blank(),axis.text.x = element_text(angle = 60, hjust = 1, size = 12), axis.text.y = element_text(size = 12), axis.title.y = element_text(size = 14))
+
+```
+
+### Lifestyle distribution in order Cyanobacteriales
+```{r, include = FALSE}
+cyanobacteriales_habitatcounts <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Order == "Cyanobacteriales",] %>% group_by(Family, isolation_source_host_focus) %>% summarize(count = n()) %>%distinct()
+
+cyanobacteriales_habitatcounts$countgroup <- "small"
+cyanobacteriales_habitatcounts[cyanobacteriales_habitatcounts$Family %in% c("Nostocaceae"),]$countgroup <- "large"
+
+cyanobacteriales_family_counts <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Order == "Cyanobacteriales",] %>% group_by(Family) %>% summarize(count = n()) 
+cyanobacteriales_family_counts <- cyanobacteriales_family_counts[order(cyanobacteriales_family_counts$count, decreasing = TRUE),]
+
+cyanobacteriales_habitatcounts$Family <- factor(cyanobacteriales_habitatcounts$Family, levels = cyanobacteriales_family_counts$Family)
+
+habitat_bar_count_all_cyanobacteriales <- ggplot(cyanobacteriales_habitatcounts, aes(x = Family, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Family", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 305))+scale_fill_manual(values = habclass_cols)+scale_color_manual(values = habclass_cols)+theme(axis.text.x = element_text(angle = 60, hjust = 1))
+
+habitat_bar_count_small_cyanobacteriales <- ggplot(cyanobacteriales_habitatcounts[cyanobacteriales_habitatcounts$countgroup == "small",], aes(x = Family, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Family", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 68))+scale_fill_manual(values = habclass_cols)+scale_color_manual(values = habclass_cols)+theme(axis.text.x = element_text(angle = 60, hjust = 1), legend.position = "none")
+```
+
+### Lifestyle distribution in family Nostocaceae
+```{r, include = FALSE}
+nostocaceae_habitatcounts <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Family == "Nostocaceae",] %>% group_by(Genus, isolation_source_host_focus) %>% summarize(count = n()) %>%distinct()
+
+nostocaceae_habitatcounts$countgroup <- "small"
+nostocaceae_habitatcounts[nostocaceae_habitatcounts$Genus %in% c("Nostoc","Dolichospermum","Fischerella","Raphidiopsis","Trichormus","Aulosira"),]$countgroup <- "large"
+
+nostocaceae_genus_counts <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Family == "Nostocaceae",] %>% group_by(Genus) %>% summarize(count = n()) 
+nostocaceae_genus_counts <- nostocaceae_genus_counts[order(nostocaceae_genus_counts$count, decreasing = TRUE),]
+
+nostocaceae_habitatcounts$Genus <- factor(nostocaceae_habitatcounts$Genus, levels = nostocaceae_genus_counts$Genus)
+
+habitat_bar_count_all_nostocaceae <- ggplot(nostocaceae_habitatcounts, aes(x = Genus, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Genus", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 63))+scale_fill_manual(values = habclass_cols)+scale_color_manual(values = habclass_cols)+theme(axis.text.x = element_text(angle = 60, hjust = 1))
+
+habitat_bar_count_small_nostocaceae <- ggplot(nostocaceae_habitatcounts[nostocaceae_habitatcounts$countgroup == "small",], aes(x = Genus, y = count, fill = isolation_source_host_focus, color = isolation_source_host_focus))+geom_bar(stat = "identity", position = "stack")+theme_bw()+labs(x = "Genus", y = "Count", fill = "Habitat Classification", color = "Habitat Classification")+scale_y_continuous(expand = c(0,0), limits = c(0, 10), breaks = pretty_breaks())+scale_fill_manual(values = habclass_cols)+scale_color_manual(values = habclass_cols)+theme(axis.text.x = element_text(angle = 60, hjust = 1))
+```
+
+## Phylogenetic Trees
+```{r, include = FALSE}
+# phylum Cyanobacteria phylogenetic tree
+all_cyano_tree_rooted <- read.tree("/data/gtdbtk_cyanotree_1021_outgrouprooted.txt")
+all_sampleid_rooted <- all_cyano_tree_rooted$tip.label
+
+# add pseudocount to remove 0 branch lengths
+all_cyano_tree_rooted$edge.length[all_cyano_tree_rooted$edge.length==0] <- quantile(all_cyano_tree_rooted$edge.length,0.1)*0.1
+
+all_cyanotree_metadata <- metadata_gtdbtktax_highq_outgroup[metadata_gtdbtktax_highq_outgroup$accession %in% all_sampleid_rooted,]
+
+rownames(all_cyanotree_metadata) <- all_cyanotree_metadata$accession
+all_cyanotree_metadata <- all_cyanotree_metadata[all_sampleid_rooted,]
+
+all_cyano_isolation_source <- all_cyanotree_metadata$isolation_source_host_focus
+
+#nostocaceae phylogenetic tree
+nostocaceae_tree <- read.tree("/Users/escameron/Documents/phylogenomic_lichen_cyanos/nostocales_316_elainellalesrooted.txt")
+nostocaceae_sampleid_rooted <- nostocaceae_tree$tip.label
+nostocaceae_tree$edge.length[nostocaceae_tree$edge.length==0] <- quantile(nostocaceae_tree$edge.length,0.1)*0.1
+
+nostocaceae_cyanotree_metadata <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$accession %in% nostocaceae_sampleid_rooted,]
+
+rownames(nostocaceae_cyanotree_metadata) <- nostocaceae_cyanotree_metadata$accession
+nostocaceae_cyanotree_metadata <- nostocaceae_cyanotree_metadata[nostocaceae_sampleid_rooted,]
+
+#nostocaceae symbiont genus subset
+nostocaceae_idtokeep <- unique(metadata_gtdbtk_nostoc_genus_symbionts$accession)
+nostocaceae_discardid <- nostocaceae_sampleid_rooted[nostocaceae_sampleid_rooted %notin% nostocaceae_idtokeep]
+nostocaceae_symbiont_prune <- drop.tip(nostocaceae_tree, nostocaceae_discardid)
+
+symbiont_genus_vector <- unique(metadata_gtdbtk_nostoc_genus_symbionts$Genus)
+symbiont_genus_list_accessions <- vector(mode = "list", length = length(symbiont_genus_vector))
+names(symbiont_genus_list_accessions) <- symbiont_genus_vector
+
+symbiont_genus_nodes_df <- data.frame("genus" = NA, "node" = NA)
+for (i in 1:length(symbiont_genus_list_accessions)){
+  genus <- symbiont_genus_vector[i]
+  accessions <- unique(metadata_gtdbtk_nostoc_genus_symbionts[metadata_gtdbtk_nostoc_genus_symbionts$Genus == genus,]$accession)
+  symbiont_genus_list_accessions[[i]] <- accessions
+  mrca_node <- MRCA(nostocaceae_symbiont_prune, accessions)
+  nodedf <- data.frame("genus" = genus, "node" = mrca_node)
+  symbiont_genus_nodes_df <- rbind(symbiont_genus_nodes_df, nodedf)
+}
+symbiont_genus_nodes_df <- na.omit(symbiont_genus_nodes_df)
+
+nostocaceae_prune_sampleid_rooted <- nostocaceae_symbiont_prune$tip.label
+
+nostocaceae_prune_cyanotree_metadata <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$accession %in% nostocaceae_prune_sampleid_rooted,]
+
+rownames(nostocaceae_prune_cyanotree_metadata) <- nostocaceae_prune_cyanotree_metadata$accession
+nostocaceae_prune_cyanotree_metadata <- nostocaceae_prune_cyanotree_metadata[nostocaceae_prune_sampleid_rooted,]
+nostocaceae_pruned_ggtree_metadata <- ggtree(nostocaceae_symbiont_prune) %<+% nostocaceae_prune_cyanotree_metadata
+nostocaceaeprune_ggtree_colouredtips <- nostocaceae_pruned_ggtree_metadata+geom_tiplab(aes(label = ""),align = TRUE, linetype = "dotted", linesize = 0.1)+
+  geom_tippoint(aes(color = isolation_source_host_focus, size = 0.1))+
+  scale_color_manual(values = habclass_cols)+theme(plot.margin = margin(0, 0, 0, 0, "cm"), legend.position = "none")
+
+nostocaceae_symbiont_prune_genushi <- ggtree(nostocaceae_symbiont_prune)+geom_hilight(symbiont_genus_nodes_df, aes(fill = genus, node = node))+scale_fill_viridis_d(option = "mako")+theme(legend.position = "none", legend.title = element_text(size = 16), legend.text = element_text(size = 14))+labs(fill = "GTDB Genus")+geom_tiplab(aes(label = ""),align = TRUE, linetype = "dotted", linesize = 0.1)
+```
+
+## KEGG Functions
+```{r, include}
+keggdecoder <- readr::read_tsv("/data/kegg_decoder_outgroup.list")
+colnames(keggdecoder)[1] <- "keggformat_genome"
+
+keggdecoder$genomeorder <- substr(keggdecoder$keggformat_genome, 1, 15)
+
+metadata_gtdbtktax_highq_outgroup$keggformat_genome2<- gsub("_","",metadata_gtdbtktax_highq_outgroup$accession)
+metadata_gtdbtktax_highq_outgroup$genomeorder <- substr(metadata_gtdbtktax_highq_outgroup$keggformat_genome2, 1, 15)
+keggdecoder_meta <- merge(metadata_gtdbtktax_highq_outgroup, keggdecoder, by.x = "genomeorder", by.y = "genomeorder")
+
+keggdecoder_all_cyano <- keggdecoder_meta[keggdecoder_meta$accession %in% all_sampleid_rooted ,]
+keggdecoder_all_cyano_nosrr <- keggdecoder_all_cyano[!grepl("public", keggdecoder_all_cyano$accession),]
+
+keggdecoder_srr <- keggdecoder[grep("public", keggdecoder$keggformat_genome),]
+metadata_srr <- metadata_gtdbtktax_highq_outgroup[grep("public", metadata_gtdbtktax_highq_outgroup$accession),]
+metadata_srr$genomeorder <- substr(metadata_srr$keggformat_genome2, 1, 30)
+keggdecoder_srr$genomeorder <- substr(keggdecoder_srr$keggformat_genome, 1, 30)
+keggmeta_srronly <- merge(metadata_srr, keggdecoder_srr, by.x = "genomeorder", by.y = "genomeorder")
+
+keggdecoder_all_cyano <- rbind(keggdecoder_all_cyano_nosrr, keggmeta_srronly)
+
+keggdecoder_allcyano_metadata <- gather(keggdecoder_all_cyano, "kegg_path", "completeness_score", 13:ncol(keggdecoder_all_cyano))
+
+keggdecoder_allcyano_metadata$raw_score <- keggdecoder_allcyano_metadata$completeness_score
+
+keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$completeness_score >= 0.5,]$completeness_score <- 1
+keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$completeness_score < 0.5,]$completeness_score <- 0
+
+keggdecoder_allcyano_metadata$complete <- "Absent"
+keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$raw_score >= 1,]$complete <- "Complete"
+
+keggdecoder_allcyano_metadata$complete_strict <- "Absent"
+keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$raw_score >= 0.98,]$complete_strict <- "Complete"
+
+keggdecoder_allcyano_metadata$completeness_score <- as.numeric(keggdecoder_allcyano_metadata$completeness_score)
+
+# data matrix for all cyanobacteria
+allcyano_kegg_matrix <- keggdecoder_allcyano_metadata %>% pivot_wider(id_cols = accession, names_from = kegg_path, values_from = completeness_score,values_fill = 0) %>% as.data.frame()
+allcyano_kegg_matrix$genomeorder <- NULL
+allcyano_kegg_matrix$keggformat_genome <- NULL
+
+rownames(allcyano_kegg_matrix) <- allcyano_kegg_matrix$accession
+allcyano_kegg_matrix <- na.omit(allcyano_kegg_matrix)
+allcyano_kegg_matrix <- allcyano_kegg_matrix[all_sampleid_rooted,]
+
+# nostocaceae kegg matrix creation
+#nostocaceae keggs
+keggdecoder_nostocaceae <- keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$accession %in% nostocaceae_sampleid_rooted,]
+
+nostocaceae_kegg_matrix <- keggdecoder_nostocaceae %>% pivot_wider(id_cols = accession, names_from = kegg_path, values_from = completeness_score,values_fill = 0) %>% as.data.frame()
+nostocaceae_kegg_matrix$genomeorder <- NULL
+nostocaceae_kegg_matrix$keggformat_genome <- NULL
+
+rownames(nostocaceae_kegg_matrix) <- nostocaceae_kegg_matrix$accession
+nostocaceae_kegg_matrix <- na.omit(nostocaceae_kegg_matrix)
+nostocaceae_kegg_matrix <- nostocaceae_kegg_matrix[nostocaceae_sampleid_rooted,]
+```
+
+### KEGG: Cyanobacteria Phylum - Host-asssociated/Free-living (Partial paths included)
+```{r, include = FALSE}
+allcyano_kegg_matrix <- allcyano_kegg_matrix[-1]
+
+# remove ubiqutiously occurring/absent KEGGs
+allcyano_kegg_matrix_nosinglestate <- allcyano_kegg_matrix[,colSums(allcyano_kegg_matrix) < 1021 & colSums(allcyano_kegg_matrix) > 0]
+
+allcyano_kegg_matrix_nosinglestate <- allcyano_kegg_matrix_nosinglestate[all_sampleid_rooted,]
+
+keggphyloglm_meta_phylum <- all_cyanotree_metadata[,c("accession", "simple_habitat")]
+rownames(keggphyloglm_meta_phylum) <- keggphyloglm_meta_phylum$accession
+keggphyloglm_meta_phylum <- keggphyloglm_meta_phylum[all_sampleid_rooted,]
+
+kegg_phyloglm_list_phylum <- vector("list", length = ncol(allcyano_kegg_matrix_nosinglestate))
+names(kegg_phyloglm_list_phylum) <- colnames(allcyano_kegg_matrix_nosinglestate)
+
+for (i in 1:(ncol(allcyano_kegg_matrix_nosinglestate))){
+  set.seed(777)
+  kegg_vector <- allcyano_kegg_matrix_nosinglestate[,i]
+  keggpathname <- toupper(colnames(allcyano_kegg_matrix_nosinglestate)[i])
+  phyloglm_df <- data.frame(trait = kegg_vector, predictor = keggphyloglm_meta_phylum$simple_habitat)
+  rownames(phyloglm_df) <- keggphyloglm_meta_phylum$accession
+  kegg_phyloglm_list_phylum[[i]] <- withWarnings(phyloglm(trait~predictor,phy=all_cyano_tree_rooted,data=phyloglm_df,boot=100, method = "logistic_MPLE"))
+}
+
+kegg_phyloglm_phylum_results <- get_phyloglm_results(kegg_phyloglm_list_phylum)
+```
+
+### KEGG: Cyanobacteria Phylum - Host-asssociated/Free-living (Only complete paths included)
+```{r, include = FALSE}
+allcyano_kegg_matrix_strict <- keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$complete_strict == "Complete",] %>% pivot_wider(id_cols = accession, names_from = kegg_path, values_from = completeness_score,values_fill = 0) %>% as.data.frame()
+allcyano_kegg_matrix$genomeorder <- NULL
+
+rownames(allcyano_kegg_matrix_strict) <- allcyano_kegg_matrix_strict$accession
+allcyano_kegg_matrix_strict <- na.omit(allcyano_kegg_matrix_strict)
+allcyano_kegg_matrix_strict <- allcyano_kegg_matrix_strict[all_sampleid_rooted,]
+
+allcyano_kegg_matrix_strict <- allcyano_kegg_matrix_strict[-1]
+allcyano_kegg_matrix_strict_nosinglestate <- allcyano_kegg_matrix_strict[,colSums(allcyano_kegg_matrix_strict) < 1021 & colSums(allcyano_kegg_matrix_strict) > 0]
+
+allcyano_kegg_matrix_strict_nosinglestate <- allcyano_kegg_matrix_strict_nosinglestate[all_sampleid_rooted,]
+
+keggphyloglm_meta_phylum_strict <- all_cyanotree_metadata[,c("accession", "simple_habitat")]
+rownames(keggphyloglm_meta_phylum_strict) <- keggphyloglm_meta_phylum_strict$accession
+keggphyloglm_meta_phylum_strict <- keggphyloglm_meta_phylum_strict[all_sampleid_rooted,]
+
+kegg_phyloglm_list_phylum_strict <- vector("list", length = ncol(allcyano_kegg_matrix_strict_nosinglestate))
+names(kegg_phyloglm_list_phylum_strict) <- colnames(allcyano_kegg_matrix_strict_nosinglestate)
+
+for (i in 1:(ncol(allcyano_kegg_matrix_strict_nosinglestate))){
+  set.seed(777)
+  kegg_vector <- allcyano_kegg_matrix_strict_nosinglestate[,i]
+  keggpathname <- toupper(colnames(allcyano_kegg_matrix_strict_nosinglestate)[i])
+  phyloglm_df <- data.frame(trait = kegg_vector, predictor = keggphyloglm_meta_phylum_strict$simple_habitat)
+  rownames(phyloglm_df) <- keggphyloglm_meta_phylum_strict$accession
+  kegg_phyloglm_list_phylum_strict[[i]] <- withWarnings(phyloglm(trait~predictor,phy=all_cyano_tree_rooted,data=phyloglm_df,boot=100, method = "logistic_MPLE"))
+}
+
+kegg_phyloglm_phylum_results_strict <- get_phyloglm_results(kegg_phyloglm_list_phylum_strict)
+```
+
+### Significant KEGGs - Phylum Simple Habs Graphs
+```{r, include = FALSE}
+nostoc_kegg <- colnames(nostocaceae_kegg_matrix_strict_nosinglestate)
+
+# significant KEGG pathways identified from phyloglm results
+significant_kegg_nostoc_isolations_df <- data.frame(kegg = c("Fe-Mn transporter MntH","Fe-Mn transporter MntH","Photosystem II","glucoamylase","chitinase","transporter: phosphonate","Cytochrome bd complex","methionine",
+"phenylalanine","sulfur assimilation","sulfur dioxygenase","Fe-Mn transporter MntH","Photosystem II"), habitat = c("Lichen","Cycad","Lichen","Cycad","Cycad","Lichen","Lichen","Lichen","Terrestrial","Lichen","Azolla (Water Fern)", "Bryophyte","Cycad"), coeff = c (1.852279799,3.143361498,2.127666475,2.421187533,1.907286216,-1.368694279,-1.268829626,-1.929703355,0.804447573,1.832152642,-2.47772293,1.710431094,1.835252469))
+
+significant_kegg_nostoc_isolations_df$impact <- "Positive"
+significant_kegg_nostoc_isolations_df[significant_kegg_nostoc_isolations_df$coeff < 0,]$impact <- "Negative"
+
+nonsig_kegg_nostoc <- nostoc_kegg[nostoc_kegg %notin% significant_kegg_nostoc_isolations]
+
+significant_kegg_nostoc_isolations <- unique(significant_kegg_nostoc_isolations_df$kegg)
+
+significant_kegg_nostoc_isolations_matrix <- nostocaceae_kegg_matrix_strict_nosinglestate[,unique(significant_kegg_nostoc_isolations)]
+significant_kegg_nostoc_isolations_matrix$genome <- rownames(significant_kegg_nostoc_isolations_matrix)
+significant_kegg_nostoc_isolations_df <- gather(significant_kegg_nostoc_isolations_matrix,"kegg_path", "completeness_score", 1:(ncol(significant_kegg_nostoc_isolations_matrix)-1))
+
+colnames(significant_kegg_nostoc_isolations_df)[1] <- "accession"
+significant_kegg_nostoc_isolations_df_meta <- merge(significant_kegg_nostoc_isolations_df, metadata_gtdbtktax)
+
+significant_kegg_nostoc_isolations_df_meta <- merge(significant_kegg_nostoc_isolations_df_meta, significant_kegg_nostoc_isolations_df)
+
+nonsignificant_kegg_nostoc_matrix <- nostocaceae_kegg_matrix_strict_nosinglestate[,nonsig_kegg_nostoc]
+nonsignificant_kegg_nostoc_matrix$genome <- rownames(nonsignificant_kegg_nostoc_matrix)
+nonsignificant_kegg_nostoc_df <- gather(nonsignificant_kegg_nostoc_matrix,"kegg_path", "completeness_score", 1:(ncol(nonsignificant_kegg_nostoc_matrix)-1))
+
+colnames(nonsignificant_kegg_nostoc_df)[1] <- "accession"
+nonsignificant_kegg_nostoc_df_meta <- merge(nonsignificant_kegg_nostoc_df, metadata_gtdbtktax)
+
+nonsignificant_kegg_nostoc_df_meta <- merge(nonsignificant_kegg_nostoc_df, metadata_gtdbtktax)
+
+nostoc_cyano_kegg_counter <- nostocaceae_kegg_matrix_strict_nosinglestate
+nostoc_cyano_kegg_counter$accession <- rownames(nostoc_cyano_kegg_counter)
+nostoc_cyano_kegg_counter <- gather(nostoc_cyano_kegg_counter,"kegg_path", "completeness_score", 1:(ncol(nostoc_cyano_kegg_counter)-1))
+nostoc_kegg_counter_meta <- merge(nostoc_cyano_kegg_counter, metadata_gtdbtktax)
+
+nostoc_kegg_counter_habitat <- nostoc_kegg_counter_meta[nostoc_kegg_counter_meta$completeness_score > 0 ,] %>% group_by(simple_habitat) %>% summarize(divide_by = n())
+
+significant_kegg_nostoc_habitatcounts <- significant_kegg_nostoc_isolations_df_meta[significant_kegg_nostoc_isolations_df_meta$completeness_score > 0,] %>% group_by(kegg_path, isolation_source_host_focus) %>% summarize(count = n())
+lifestyle_df_nostoc <- metadata_gtdbtktax_highq_outgroup[metadata_gtdbtktax_highq_outgroup$Family == "Nostocaceae",] %>% group_by(isolation_source_host_focus) %>% summarize(divide_by = n())
+
+significant_kegg_nostoc_habitatcounts <- merge(significant_kegg_nostoc_habitatcounts, lifestyle_df_nostoc, by = "isolation_source_host_focus")
+significant_kegg_nostoc_habitatcounts$prop <- (significant_kegg_nostoc_habitatcounts$count / significant_kegg_nostoc_habitatcounts$divide_by)* 100
+significant_kegg_nostoc_habitatcounts[significant_kegg_nostoc_habitatcounts$prop > 100,]$prop <- 100
+
+nonsignificant_kegg_nostoc_habitatcounts <- nonsignificant_kegg_nostoc_df_meta[nonsignificant_kegg_nostoc_df_meta$completeness_score > 0,] %>% group_by(kegg_path, isolation_source_host_focus) %>% summarize(count = n())
+
+nonsignificant_kegg_nostoc_habitatcounts <- merge(nonsignificant_kegg_nostoc_habitatcounts, lifestyle_df_nostoc, by = "isolation_source_host_focus")
+nonsignificant_kegg_nostoc_habitatcounts$prop <- (nonsignificant_kegg_nostoc_habitatcounts$count / nonsignificant_kegg_nostoc_habitatcounts$divide_by)* 100
+nonsignificant_kegg_nostoc_habitatcounts$scale <- "small"
+nonsignificant_kegg_nostoc_habitatcounts[nonsignificant_kegg_nostoc_habitatcounts$prop > 25,]$scale <- "big"
+nonsignificant_kegg_nostoc_habitatcounts[nonsignificant_kegg_nostoc_habitatcounts$prop > 100,]$prop <- 100
+
+significant_kegg_nostoc_barplot <- ggplot(significant_kegg_nostoc_habitatcounts, aes(y = kegg_path, x = prop, fill = isolation_source_host_focus))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_x_continuous(expand = c(0, 0), limits = c(0, 103))+theme(axis.text.x = element_text(size = 14), axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16), axis.title.x = element_text(size = 16), legend.title = element_text(size = 16), legend.text = element_text(size = 14))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Isolation Source")+scale_fill_manual(values = habclass_cols)
+
+nonsignificant_kegg_nostoc_barplot_abundant <-  ggplot(nonsignificant_kegg_nostoc_habitatcounts[nonsignificant_kegg_nostoc_habitatcounts$scale == "big",], aes(y = kegg_path, x = prop, fill = isolation_source_host_focus))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_x_continuous(expand = c(0, 0), limits = c(0, 100))+theme(axis.text.x = element_text(size = 14), axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16), axis.title.x = element_text(size = 16), legend.title = element_text(size = 16), legend.text = element_text(size = 14))+labs(x = "KEGG Function", xy= "Proportion of Genomes (%)", fill = "Isolation Source")+scale_fill_manual(values = habclass_cols)
+
+nonsignificant_kegg_nostoc_barplot <-  ggplot(nonsignificant_kegg_nostoc_habitatcounts, aes(x = kegg_path, y = prop, fill = isolation_source_host_focus))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_y_continuous(expand = c(0, 0), limits = c(0, 100))+theme(axis.text.x = element_text(angle = 60, hjust = 1))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Isolation Source")+scale_fill_manual(values = habclass_cols)
+
+nonsignificant_kegg_nostoc_barplot_low <- ggplot(nonsignificant_kegg_nostoc_habitatcounts[nonsignificant_kegg_nostoc_habitatcounts$scale == "small",], aes(x = kegg_path, y = prop, fill = isolation_source_host_focus))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_y_continuous(expand = c(0, 0), limits = c(0, 25))+theme(axis.text.x = element_text(angle = 60, hjust = 1))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Isolation Source")+scale_fill_manual(values = habclass_cols)
+
+geomtile_kegg_plot <- ggplot(significant_kegg_nostoc_isolations_df_meta[significant_kegg_nostoc_isolations_df_meta$completeness_score == 1,], aes(x = (kegg_path), y = accession, fill = isolation_source_host_focus, ))+geom_tile()+
+scale_fill_manual(values = habclass_cols)+theme_bw()+theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(), axis.title.y = element_blank(), axis.text.x = element_markdown(angle = 90, hjust = 1, size = 14), axis.title.x = element_text(size = 16),legend.text = element_text(size = 14), legend.title = element_text(size = 16), panel.border = element_rect(colour = "black"))+labs(x = "KEGG Pathway")+scale_x_discrete(expand = c(0,0))+scale_y_discrete(expand = c(0,0))+labs(fill = "Isolation Source")+scale_alpha_identity()
+
+geomtile_ggtree_kegg <- geomtile_kegg_plot %>% insert_left(nostocaceae_symbiont_prune_genushi)
+```
+
+### Significant KEGGs - Nostocaceae Isolation Graphs
+```{r, include = FALSE}
+all_kegg <- colnames(allcyano_kegg_matrix_strict_nosinglestate)
+
+# significant pathways identified in phyloglm results
+significant_kegg_all_simplehab_strict <- c("riboflavin biosynthesis","MEP-DOXP pathway","Photosystem II","methionine","F-type ATPase","NAD(P)H-quinone oxidoreductase",
+"Fe-Mn transporter MntH","sulfide oxidation","glucoamylase","end-product zeaxanthin diglucoside","leucine","Cytochrome bd complex","Ferric iron ABC-type substrate-binding AfuA","Mixed acid: Formate","Cobalt transporter CbiMQ","transporter: urea","D-galacturonate epimerase","nitrogen fixation","Cobalt transporter CorA","gluconeogenesis","sulfur dioxygenase")
+significant_kegg_all_simplehab_partial <- c("methionine","Fe-Mn transporter MntH","sulfide oxidation","glucoamylase","end-product zeaxanthin diglucoside","TCA Cycle","NAD-reducing hydrogenase",
+"Cytochrome bd complex","Ferric iron ABC-type substrate-binding AfuA","Mixed acid: Formate","D-galacturonate epimerase",
+"Sec-SRP","Type I Secretion","Cobalt transporter CorA",
+"sulfur dioxygenase")
+
+nonsig_kegg_all_simplehab <- all_kegg[all_kegg %notin% significant_kegg_all_simplehab_strict]
+
+significant_kegg_all_simplehab_strict_df <- data.frame(kegg_path = significant_kegg_all_simplehab_strict, coeff = c(-2.553885613,-2.335309128,-2.391128777,-3.165257981,-2.200682699,-1.213504095,1.299744341,-1.198719717,1.315539167,1.002836696,-0.891396359,-0.901292589,-0.8023542,-1.089788226,-0.793729249,-0.650244298,-0.663350191,0.689593246,0.505344362,0.828911775,-0.468578666))
+significant_kegg_all_simplehab_strict_df$impact <- "Positive"
+significant_kegg_all_simplehab_strict_df[significant_kegg_all_simplehab_strict_df$coeff < 0,]$impact <- "Negative"
+
+significant_kegg_all_cyano_matrix <- allcyano_kegg_matrix_strict_nosinglestate[,significant_kegg_all_simplehab_strict]
+significant_kegg_all_cyano_matrix$accession <- rownames(significant_kegg_all_cyano_matrix)
+significant_kegg_all_cyano_df <- gather(significant_kegg_all_cyano_matrix,"kegg_path", "completeness_score", 1:(ncol(significant_kegg_all_cyano_matrix)-1))
+
+significant_kegg_all_cyano_df_meta <- merge(significant_kegg_all_cyano_df, metadata_gtdbtktax)
+
+significant_kegg_all_cyano_df_meta <- merge(significant_kegg_all_cyano_df_meta, significant_kegg_all_simplehab_strict_df)
+
+nonsignificant_kegg_all_cyano_matrix <- allcyano_kegg_matrix_strict_nosinglestate[,nonsig_kegg_all_simplehab]
+nonsignificant_kegg_all_cyano_matrix$accession <- rownames(nonsignificant_kegg_all_cyano_matrix)
+nonsignificant_kegg_all_cyano_df <- gather(nonsignificant_kegg_all_cyano_matrix,"kegg_path", "completeness_score", 1:(ncol(nonsignificant_kegg_all_cyano_matrix)-1))
+
+significant_kegg_all_cyano_df_meta <- merge(significant_kegg_all_cyano_df, metadata_gtdbtktax)
+
+nonsignificant_kegg_all_cyano_df_meta <- merge(nonsignificant_kegg_all_cyano_df, metadata_gtdbtktax)
+
+significant_kegg_all_cyano_df_meta <- merge(significant_kegg_all_cyano_df_meta, significant_kegg_all_simplehab_strict_df)
+all_cyano_kegg_counter <- allcyano_kegg_matrix_strict_nosinglestate
+all_cyano_kegg_counter$accession <- rownames(all_cyano_kegg_counter)
+all_cyano_kegg_counter <- gather(all_cyano_kegg_counter,"kegg_path", "completeness_score", 1:(ncol(all_cyano_kegg_counter)-1))
+all_cyano_kegg_counter_meta <- merge(all_cyano_kegg_counter, metadata_gtdbtktax)
+
+all_cyano_kegg_counter_habitat <- all_cyano_kegg_counter_meta[all_cyano_kegg_counter_meta$completeness_score > 0 ,] %>% group_by(simple_habitat) %>% summarize(divide_by = n())
+
+significant_kegg_all_cyano_habitatcounts <- significant_kegg_all_cyano_df_meta[significant_kegg_all_cyano_df_meta$completeness_score > 0,] %>% group_by(kegg_path, simple_habitat) %>% summarize(count = n(), impact = impact)
+lifestyle_df <- metadata_gtdbtktax_highq_outgroup %>% group_by(simple_habitat) %>% summarize(divide_by = n())
+
+significant_kegg_all_cyano_habitatcounts <- merge(significant_kegg_all_cyano_habitatcounts, lifestyle_df, by = "simple_habitat")
+significant_kegg_all_cyano_habitatcounts$prop <- (significant_kegg_all_cyano_habitatcounts$count / significant_kegg_all_cyano_habitatcounts$divide_by)* 100
+
+nonsignificant_kegg_all_cyano_habitatcounts <- nonsignificant_kegg_all_cyano_df_meta[nonsignificant_kegg_all_cyano_df_meta$completeness_score > 0,] %>% group_by(kegg_path, simple_habitat) %>% summarize(count = n())
+
+nonsignificant_kegg_all_cyano_habitatcounts <- merge(nonsignificant_kegg_all_cyano_habitatcounts, lifestyle_df, by = "simple_habitat")
+nonsignificant_kegg_all_cyano_habitatcounts$prop <- (nonsignificant_kegg_all_cyano_habitatcounts$count / nonsignificant_kegg_all_cyano_habitatcounts$divide_by)* 100
+nonsignificant_kegg_all_cyano_habitatcounts$scale <- "smoll"
+nonsignificant_kegg_all_cyano_habitatcounts[nonsignificant_kegg_all_cyano_habitatcounts$prop > 25,]$scale <- "big"
+
+significant_kegg_phylum_barplot <- ggplot(significant_kegg_all_cyano_habitatcounts, aes(x = kegg_path, y = prop, fill = simple_habitat))+geom_bar(position = "dodge", stat = "identity")+facet_grid(~impact, scales = "free", space = "free")+theme_bw()+scale_y_continuous(expand = c(0, 0), limits = c(0, 103))+scale_fill_manual(values = c("grey","black"))+theme(axis.text.x = element_text(angle = 60, hjust = 1, size = 14))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Lifestyle Classfication")
+
+scales <- list(
+  scale_y_discrete(),
+  scale_y_discrete(position = "right")
+  )
+
+significant_kegg_all_cyano_df_meta <-significant_kegg_all_cyano_df_meta[order(significant_kegg_all_cyano_df_meta$coeff, decreasing = TRUE),]
+significant_kegg_all_cyano_df_meta$kegg_path <- factor(significant_kegg_all_cyano_df_meta$kegg_path, levels = unique(significant_kegg_all_cyano_df_meta[order(significant_kegg_all_cyano_df_meta$coeff, decreasing = TRUE),]$kegg_path))
+
+significant_kegg_all_cyano_df_meta_condensed <- significant_kegg_all_cyano_df_meta %>% group_by(kegg_path) %>% summarize(impact = impact, coeff = coeff) %>% distinct()
+
+significant_kegg_phylum_barplot_coefficients <- ggplot(significant_kegg_all_cyano_df_meta_condensed, aes(y = kegg_path, x = coeff, fill = impact))+geom_bar(stat = "identity", width = 0.5)+scale_fill_manual(values = c("#b60a1c","#51b364"))+theme_bw()+theme(legend.position = "none", axis.title.x = element_text(size = 16), axis.text.x = element_text(size = 14), axis.title.y = element_text(size = 16), axis.text.y = element_text(size = 14))+labs(y = "KEGG Function", x = "Coefficient Estimate")+scale_x_continuous(expand = c(0,0),limits = c(-4, 2))+geom_vline(xintercept = 0, linetype = "dotted", size = 1.5)
+
+nonsignificant_kegg_phylum_barplot_abundant <- ggplot(nonsignificant_kegg_all_cyano_habitatcounts[nonsignificant_kegg_all_cyano_habitatcounts$scale == "big",], aes(x = kegg_path, y = prop, fill = simple_habitat))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_y_continuous(expand = c(0, 0))+scale_fill_manual(values = c("grey","black"))+theme(axis.text.x = element_text(angle = 60, hjust = 1))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Lifestyle Classfication")
+
+nonsignificant_kegg_phylum_barplot_low <- ggplot(nonsignificant_kegg_all_cyano_habitatcounts[nonsignificant_kegg_all_cyano_habitatcounts$scale == "smoll",], aes(x = kegg_path, y = prop, fill = simple_habitat))+geom_bar(position = position_dodge(preserve = "single"), stat = "identity")+theme_bw()+scale_y_continuous(expand = c(0, 0))+scale_fill_manual(values = c("grey","black"))+theme(axis.text.x = element_text(angle = 60, hjust = 1))+labs(x = "KEGG Function", y = "Proportion of Genomes (%)", fill = "Lifestyle Classfication")
+```
+
+
+### KEGG: Nostocaceae Family - Isolation Sources (Partial paths included)
+```{r, include = FALSE}
+nostocaceae_kegg_matrix <- nostocaceae_kegg_matrix[-1]
+nostocaceae_kegg_matrix_nosinglestate <- nostocaceae_kegg_matrix[,colSums(nostocaceae_kegg_matrix) < 316 & colSums(nostocaceae_kegg_matrix) > 0]
+
+nostocaceae_kegg_matrix_nosinglestate <- nostocaceae_kegg_matrix_nosinglestate[nostocaceae_sampleid_rooted,]
+
+nostocaceae_only_id <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Family == "Nostocaceae",]$accession
+
+nostoc_only_kegg_matrix_partial <- nostocaceae_kegg_matrix[nostocaceae_only_id,]
+nostoc_only_kegg_matrix_partial$accession <- rownames(nostoc_only_kegg_matrix_partial)
+nostoc_only_kegg_longdf_partial <- pivot_longer(nostoc_only_kegg_matrix_partial, cols = 1:(ncol(nostoc_only_kegg_matrix_partial)-1))
+
+nostoc_only_kegg_longdf_counts_partial <- nostoc_only_kegg_longdf_partial[nostoc_only_kegg_longdf_partial$value > 0,] %>% group_by(name) %>% summarize(count = n())
+nostoc_only_kegg_longdf_counts_partial <- nostoc_only_kegg_longdf_counts_partial[order(nostoc_only_kegg_longdf_counts_partial$count, decreasing = TRUE),]
+nostoc_only_kegg_longdf_countorder_partial <- nostoc_only_kegg_longdf_counts_partial$name
+nostoc_only_kegg_longdf_partial$name <- factor(nostoc_only_kegg_longdf_partial$name, levels = nostoc_only_kegg_longdf_countorder_partial)
+
+nostoc_keggcount_plot_partial <- ggplot(na.omit(nostoc_only_kegg_longdf_partial[nostoc_only_kegg_longdf_partial$name != "keggformat_genome",]), aes(y = name, x = value))+geom_bar(stat = "identity", position = "stack", fill = "coral")+theme_bw()+scale_x_continuous(expand = c(0,0), limits = c(0,305))+labs(x = "Count", y = "KEGG Function")
+
+nostoc_90p_partial <- unique(nostoc_only_kegg_longdf_counts_partial[nostoc_only_kegg_longdf_counts_partial$count > 271,]$name)
+
+keggphyloglm_meta_nostocaceae <- nostocaceae_cyanotree_metadata[,c("accession", "isolation_source_host_focus")]
+rownames(keggphyloglm_meta_nostocaceae) <- keggphyloglm_meta_nostocaceae$accession
+keggphyloglm_meta_nostocaceae <- keggphyloglm_meta_nostocaceae[nostocaceae_sampleid_rooted,]
+
+kegg_phyloglm_list_nostocaceae <- vector("list", length = ncol(nostocaceae_kegg_matrix_nosinglestate))
+names(kegg_phyloglm_list_nostocaceae) <- colnames(nostocaceae_kegg_matrix_nosinglestate)
+
+for (i in 1:(ncol(nostocaceae_kegg_matrix_nosinglestate))){
+  set.seed(777)
+  kegg_vector <- nostocaceae_kegg_matrix_nosinglestate[,i]
+  keggpathname <- toupper(colnames(nostocaceae_kegg_matrix_nosinglestate)[i])
+  phyloglm_df <- data.frame(trait = kegg_vector, predictor = keggphyloglm_meta_nostocaceae$isolation_source_host_focus)
+  rownames(phyloglm_df) <- keggphyloglm_meta_nostocaceae$accession
+  kegg_phyloglm_list_nostocaceae[[i]] <- withWarnings(phyloglm(trait~predictor,phy=nostocaceae_tree,data=phyloglm_df,boot=100, method = "logistic_MPLE"))
+}
+
+kegg_phyloglm_nostocaceae_results <- get_phyloglm_results(kegg_phyloglm_list_nostocaceae)
+```
+
+### KEGG: Nostocaceae - Isolation Source (Complete Paths Only)
+```{r, include = FALSE}
+nostocaceae_kegg_matrix_strict <- keggdecoder_allcyano_metadata[keggdecoder_allcyano_metadata$complete_strict == "Complete" & keggdecoder_allcyano_metadata$accession %in% nostocaceae_sampleid_rooted,] %>% pivot_wider(id_cols = accession, names_from = kegg_path, values_from = completeness_score,values_fill = 0) %>% as.data.frame()
+nostocaceae_kegg_matrix_strict$genomeorder <- NULL
+
+rownames(nostocaceae_kegg_matrix_strict) <- nostocaceae_kegg_matrix_strict$accession
+nostocaceae_kegg_matrix_strict <- na.omit(nostocaceae_kegg_matrix_strict)
+nostocaceae_kegg_matrix_strict <- nostocaceae_kegg_matrix_strict[nostocaceae_sampleid_rooted,]
+
+nostocaceae_kegg_matrix_strict <- nostocaceae_kegg_matrix_strict[-1]
+nostocaceae_kegg_matrix_strict_nosinglestate <- nostocaceae_kegg_matrix_strict[,colSums(nostocaceae_kegg_matrix_strict) < 316 & colSums(nostocaceae_kegg_matrix_strict) > 0]
+
+nostocaceae_kegg_matrix_strict_nosinglestate <- nostocaceae_kegg_matrix_strict_nosinglestate[nostocaceae_sampleid_rooted,]
+
+nostocaceae_only_id <- metadata_gtdbtktax_highq[metadata_gtdbtktax_highq$Family == "Nostocaceae",]$accession
+nostoc_only_kegg_matrix <- nostocaceae_kegg_matrix_strict[nostocaceae_only_id,]
+nostoc_only_kegg_matrix$accession <- rownames(nostoc_only_kegg_matrix)
+nostoc_only_kegg_longdf <- pivot_longer(nostoc_only_kegg_matrix, cols = 1:(ncol(nostoc_only_kegg_matrix)-1))
+
+nostoc_only_kegg_longdf_counts <- nostoc_only_kegg_longdf[nostoc_only_kegg_longdf$value > 0,] %>% group_by(name) %>% summarize(count = n())
+nostoc_only_kegg_longdf_counts <- nostoc_only_kegg_longdf_counts[order(nostoc_only_kegg_longdf_counts$count, decreasing = TRUE),]
+nostoc_only_kegg_longdf_countorder <- nostoc_only_kegg_longdf_counts$name
+nostoc_only_kegg_longdf$name <- factor(nostoc_only_kegg_longdf$name, levels = nostoc_only_kegg_longdf_countorder)
+
+nostoc_keggcount_plot <- ggplot(na.omit(nostoc_only_kegg_longdf[nostoc_only_kegg_longdf$name != "keggformat_genome",]), aes(y = name, x = value))+geom_bar(stat = "identity", position = "stack", fill = "dodgerblue3")+theme_bw()+scale_x_continuous(expand = c(0,0), limits = c(0,305))+labs(x = "Count", y = "KEGG Function")
+ggsave("/Users/escameron/Documents/phylogenomic_lichen_cyanos/revision1_figures/nostoc_keggcount_plot.pdf", nostoc_keggcount_plot, dpi = "retina", height = 8, width = 7)
+
+keggphyloglm_meta_nostocaceae_strict <- nostocaceae_cyanotree_metadata[,c("accession", "isolation_source_host_focus")]
+rownames(keggphyloglm_meta_nostocaceae_strict) <- keggphyloglm_meta_nostocaceae_strict$accession
+keggphyloglm_meta_nostocaceae_strict <- keggphyloglm_meta_nostocaceae_strict[nostocaceae_sampleid_rooted,]
+
+kegg_phyloglm_list_nostocaceae_strict <- vector("list", length = ncol(nostocaceae_kegg_matrix_strict_nosinglestate))
+names(kegg_phyloglm_list_nostocaceae_strict) <- colnames(nostocaceae_kegg_matrix_strict_nosinglestate)
+
+for (i in 1:(ncol(nostocaceae_kegg_matrix_strict_nosinglestate))){
+  set.seed(777)
+  kegg_vector <- nostocaceae_kegg_matrix_strict_nosinglestate[,i]
+  keggpathname <- toupper(colnames(nostocaceae_kegg_matrix_strict_nosinglestate)[i])
+  phyloglm_df <- data.frame(trait = kegg_vector, predictor = keggphyloglm_meta_nostocaceae_strict$isolation_source_host_focus)
+  rownames(phyloglm_df) <- keggphyloglm_meta_nostocaceae_strict$accession
+  kegg_phyloglm_list_nostocaceae_strict[[i]] <- withWarnings(phyloglm(trait~predictor,phy=nostocaceae_tree,data=phyloglm_df,boot=100, method = "logistic_MPLE"))
+}
+
+kegg_phyloglm_nostocaceae_results_strict <- get_phyloglm_results(kegg_phyloglm_list_nostocaceae_strict)
+```
+
+## Biosynthetic Gene Clusters
+### Data Input
+```{r, include = FALSE}
+sanntis_all <- read.csv("/data/sanntis_all_output.csv")
+sanntis_all$X <- NULL
+sanntis_all$accession <- sapply(strsplit(sanntis_all$sample, "_sanntis"), head, 1)
+sanntis_metadata <- merge(sanntis_all, metadata_gtdbtktax)
+nostocaceae_sanntis <- sanntis_all[sanntis_all$accession %in% nostocaceae_sampleid_rooted,]
+
+all_bgc_clustering <- readr::read_tsv("/data/sanntis_antismash_clustering.tsv")
+
+all_clustercontents <- all_bgc_clustering %>% group_by(louvain_4, METHOD) %>% summarize(count = n()) 
+all_clustercontents_count <- all_clustercontents %>% group_by(louvain_4) %>% summarize(count = n())
+antismash_sanntis_mix_clusters <- all_clustercontents_count[all_clustercontents_count$count > 1,]$louvain_4
+
+sanntis_bgc_clustering <- all_bgc_clustering[all_bgc_clustering$METHOD == "sanntis",]
+colnames(sanntis_bgc_clustering)[2] <- "cluster_id"
+
+sanntis_bgc_clustering_meta <- merge(sanntis_bgc_clustering, sanntis_metadata)
+
+sanntis_bgc_clustering_meta$gene_length <- (as.numeric(sanntis_bgc_clustering_meta$end) - as.numeric(sanntis_bgc_clustering_meta$start))
+
+sanntis_bgc_clustering_meta <- sanntis_bgc_clustering_meta[sanntis_bgc_clustering_meta$accession %in% all_sampleid_rooted,]
+
+sanntis_bgc_clustering_meta_hq <- sanntis_bgc_clustering_meta[sanntis_bgc_clustering_meta$partial_cluster == "partial=00" & sanntis_bgc_clustering_meta$gene_length >= 3000 & sanntis_bgc_clustering_meta$louvain_4 %in% antismash_sanntis_mix_clusters,]
+
+nostocaceae_sanntis_clustering <- sanntis_bgc_clustering_meta_hq[sanntis_bgc_clustering_meta_hq$accession %in% nostocaceae_sampleid_rooted,]
+
+sanntis_clustering_hq_clusteredonly <- sanntis_bgc_clustering_meta_hq[!(sanntis_bgc_clustering_meta_hq$MCL == -1 | sanntis_bgc_clustering_meta_hq$louvain_4 == -1),]
+
+nostocaceae_sanntis_clustering_hq_clusteredonly <- nostocaceae_sanntis_clustering[!(nostocaceae_sanntis_clustering$MCL == -1 | nostocaceae_sanntis_clustering$louvain_4 == -1),]
+
+empty_sanntis <- all_sampleid_rooted[all_sampleid_rooted %notin% unique(sanntis_clustering_hq_clusteredonly$accession)]
+```
+
+### Biosynthetic Gene Cluster Classes 
+#### Data Preparation
+```{r, include = FALSE}
+sanntis_totalbgc_count <- sanntis_bgc_clustering_meta_hq %>% group_by(accession) %>% summarize(total = n())
+
+sanntis_totalbgc_count_plot <- sanntis_bgc_clustering_meta_hq %>% group_by(accession) %>% summarize(mibig_class = "total", total = n(), simple_habitat = simple_habitat) %>% distinct()
+
+sanntis_bgcclass_count_plottingmeta <- sanntis_bgc_clustering_meta_hq %>% group_by(accession, mibig_class) %>% summarize(total = n(), simple_habitat = simple_habitat ) %>% distinct()
+
+sanntis_bgcclass_count <- sanntis_bgc_clustering_meta_hq %>% group_by(accession, mibig_class) %>% summarize(total = n()) %>% distinct() %>% pivot_wider(id_cols = accession, names_from = mibig_class, values_from = total, values_fill = 0)
+
+sanntis_bgcclass_count_spread_totalbgc <- merge(sanntis_totalbgc_count, sanntis_bgcclass_count)
+
+rownames(sanntis_bgcclass_count_spread_totalbgc) <- sanntis_bgcclass_count_spread_totalbgc$accession
+
+empty_bgcclass_df <- sanntis_bgcclass_count_spread_totalbgc[FALSE,]
+for (i in 1:length(empty_sanntis)){
+  print(empty_sanntis[i])
+  emptyvec <- c(empty_sanntis[i], rep(0, ncol(empty_bgcclass_df)-1))
+  empty_bgcclass_df <- rbind(empty_bgcclass_df, emptyvec)
+}
+
+colnames(empty_bgcclass_df) <- colnames(sanntis_bgcclass_count_spread_totalbgc)
+ 
+sanntis_bgcclass_count_spread_totalbgc <- rbind(sanntis_bgcclass_count_spread_totalbgc, empty_bgcclass_df)
+
+rownames(sanntis_bgcclass_count_spread_totalbgc) <- sanntis_bgcclass_count_spread_totalbgc$accession
+
+sanntis_bgcclass_count_spread_totalbgc <- sanntis_bgcclass_count_spread_totalbgc[all_sampleid_rooted,]
+
+sanntis_bgcclass_count_matrix <- as.matrix(sanntis_bgcclass_count_spread_totalbgc[,-1])
+
+### Nostocaceae
+sanntis_nostocaceae_totalbgc_count <- nostocaceae_sanntis_clustering %>% group_by(accession) %>% summarize(total = n())
+
+sanntis_nostocaceae_bgcclass_count <- nostocaceae_sanntis_clustering %>% group_by(accession, mibig_class) %>% summarize(total = n()) %>% distinct() %>% pivot_wider(id_cols = accession, names_from = mibig_class, values_from = total, values_fill = 0)
+
+sanntis_nostocaceae_bgcclass_count_spread_totalbgc <- merge(sanntis_nostocaceae_totalbgc_count, sanntis_nostocaceae_bgcclass_count)
+
+rownames(sanntis_nostocaceae_bgcclass_count_spread_totalbgc) <- sanntis_nostocaceae_bgcclass_count_spread_totalbgc$accession
+
+sanntis_nostocaceae_bgcclass_count_spread_totalbgc <- sanntis_nostocaceae_bgcclass_count_spread_totalbgc[nostocaceae_sampleid_rooted,]
+
+sanntis_nostocaceae_bgcclass_count_matrix <- as.matrix(sanntis_nostocaceae_bgcclass_count_spread_totalbgc[,-1])
+```
+
+#### Biosynthetic Gene Cluster Class Counts - Phylum & Simple-Habitat Classification Phylogenetic Linear Regression 
+```{r, include = FALSE}
+phylolm_meta <- all_cyanotree_metadata[,c("accession", "simple_habitat")]
+rownames(phylolm_meta) <- phylolm_meta$accession
+phylolm_meta <- phylolm_meta[all_sampleid_rooted,]
+
+bgcclass_phylolm_list <- vector("list", length = ncol(sanntis_bgcclass_count_matrix))
+names(bgcclass_phylolm_list) <- colnames(sanntis_bgcclass_count_matrix)
+
+for (i in 1:(ncol(sanntis_bgcclass_count_matrix))){
+  class_vector <- as.numeric(sanntis_bgcclass_count_matrix[,i])
+  classname <- toupper(colnames(sanntis_bgcclass_count_matrix)[i])
+  phylolm_df <- data.frame(trait = class_vector, predictor = phylolm_meta$simple_habitat)
+  rownames(phylolm_df) <- phylolm_meta$accession
+  bgcclass_phylolm_list[[i]] <- withWarnings(phylolm(trait~predictor,phy=all_cyano_tree_rooted,data=phylolm_df,boot=100, model = "lambda"))
+}
+
+bgcclass_phylolm_results <- get_phyloglm_results(bgcclass_phylolm_list)
+```
+
+#### Pagel's BGC Class - All
+```{r, include = FALSE}
+pagels_bgc_class <- vector("list", length = ncol(sanntis_bgcclass_count_matrix))
+names(pagels_bgc_class) <- colnames(sanntis_bgcclass_count_matrix)
+
+for (i in 1:ncol(sanntis_bgcclass_count_matrix)){
+  bgc_vector <- as.numeric(sanntis_bgcclass_count_matrix[,i])
+  pagels_bgc_class[[i]] <- phytools::phylosig(all_cyano_tree_rooted, bgc_vector, method = "lambda", test = TRUE)
+}
+
+significant_pagel_bgc_class <- vector("list", length(pagels_bgc_class))
+names(significant_pagel_bgc_class) <- names(pagels_bgc_class)
+
+for (i in 1:length(pagels_bgc_class)){
+  if (pagels_bgc_class[[i]]$P <= 0.05){
+    significant_pagel_bgc_class[[i]] <- pagels_bgc_class[[i]]}else{
+      next
+    }
+  }
+
+significant_pagel_bgc_class <- significant_pagel_bgc_class[!sapply(significant_pagel_bgc_class,is.null)]
+nonrandom_mibig_class_pagels <- names(significant_pagel_bgc_class)
+```
+
+#### Biosynthetic Gene Cluster Class Counts - Nostocaceae & Isolation Source Classification Phylogenetic Linear Regression
+```{r, include = FALSE}
+phylolm_meta_nostoc <- nostocaceae_cyanotree_metadata[,c("accession", "simple_habitat","isolation_source_host_focus")]
+rownames(phylolm_meta_nostoc) <- phylolm_meta_nostoc$accession
+phylolm_meta_nostoc <- phylolm_meta_nostoc[nostocaceae_sampleid_rooted,]
+
+bgcclass_phylolm_list_nostoc <- vector("list", length = ncol(sanntis_nostocaceae_bgcclass_count_matrix))
+names(bgcclass_phylolm_list_nostoc) <- colnames(sanntis_nostocaceae_bgcclass_count_matrix)
+
+for (i in 1:(ncol(sanntis_nostocaceae_bgcclass_count_matrix))){
+  class_vector <- as.numeric(sanntis_nostocaceae_bgcclass_count_matrix[,i])
+  classname <- toupper(colnames(sanntis_nostocaceae_bgcclass_count_matrix)[i])
+  phylolm_df <- data.frame(trait = class_vector, predictor = phylolm_meta_nostoc$isolation_source_host_focus)
+  rownames(phylolm_df) <- phylolm_meta_nostoc$accession
+  bgcclass_phylolm_list_nostoc[[i]] <- withWarnings(phylolm(trait~predictor,phy=nostocaceae_tree,data=phylolm_df,boot=100, model = "lambda"))
+}
+
+bgcclass_phylolm_nostoc_results <- get_phyloglm_results(bgcclass_phylolm_list_nostoc)
+```
+
+#### Pagel's BGC Class Nostocaceae
+```{r, include = FALSE}
+pagels_bgc_class_nostoc <- vector("list", length = ncol(sanntis_nostocaceae_bgcclass_count_matrix))
+names(pagels_bgc_class_nostoc) <- colnames(sanntis_nostocaceae_bgcclass_count_matrix)
+
+for (i in 1:ncol(sanntis_nostocaceae_bgcclass_count_matrix)){
+  bgc_vector <- as.numeric(sanntis_nostocaceae_bgcclass_count_matrix[,i])
+  pagels_bgc_class_nostoc[[i]] <- phytools::phylosig(nostocaceae_tree, bgc_vector, method = "lambda", test = TRUE)
+}
+
+significant_pagel_bgc_class_nostoc <- vector("list", length(pagels_bgc_class_nostoc))
+names(significant_pagel_bgc_class_nostoc) <- names(pagels_bgc_class_nostoc)
+
+for (i in 1:length(pagels_bgc_class_nostoc)){
+  if (pagels_bgc_class_nostoc[[i]]$P <= 0.05){
+    significant_pagel_bgc_class_nostoc[[i]] <- pagels_bgc_class_nostoc[[i]]}else{
+      next
+    }
+  }
+
+significant_pagel_bgc_class_nostoc <- significant_pagel_bgc_class_nostoc[!sapply(significant_pagel_bgc_class_nostoc,is.null)]
+nonrandom_mibig_class_pagels_nostoc <- names(significant_pagel_bgc_class_nostoc)
+```
+
+### Biosynthetic Gene Cluster Groups
+#### Data preparation
+```{r, include = FALSE}
+sanntis_louvain4_count_df <- sanntis_clustering_hq_clusteredonly[sanntis_clustering_hq_clusteredonly$Order %notin% outgroup_orders,] %>% group_by(accession, louvain_4) %>% summarize(count = n(), habitat_type = habitat_classification,  isolation_source_host_focus = isolation_source_host_focus, simple_habitat = simple_habitat ) %>% distinct() 
+
+
+sanntis_louvain4_composition <- sanntis_louvain4_count_df %>% group_by(louvain_4, simple_habitat) %>% summarize(count = n()) %>% group_by(louvain_4) %>% summarize(count = n())
+
+pure_louvain4_id <- sanntis_louvain4_composition[sanntis_louvain4_composition$count == 1,]$louvain_4
+
+freeliving_louvain4_id <- sanntis_louvain4_count_df[sanntis_louvain4_count_df$louvain_4 %in% pure_louvain4_id & sanntis_louvain4_count_df$simple_habitat == "Free-living",]$louvain_4
+
+host_louvain4_id <- sanntis_louvain4_count_df[sanntis_louvain4_count_df$louvain_4 %in% pure_louvain4_id & sanntis_louvain4_count_df$simple_habitat == "Host-associated",]$louvain_4
+
+mixed_louvain4_id <- sanntis_louvain4_composition[sanntis_louvain4_composition$count == 2,]$louvain_4
+
+sanntis_louvain4_count_df <- sanntis_louvain4_count_df[sanntis_louvain4_count_df$louvain_4 %in% mixed_louvain4_id,]
+
+sanntis_louvain4 <- sanntis_louvain4_count_df %>% pivot_wider(id_cols = accession, names_from = louvain_4, values_from = count, values_fill = 0) %>% as.data.frame()
+
+empty_sanntis_df <- as.data.frame(sanntis_louvain4[FALSE,])
+for (i in 1:length(empty_sanntis)){
+  emptyvec <- c(empty_sanntis[i], rep(0, ncol(empty_sanntis_df)-1))
+  empty_sanntis_df <- rbind(empty_sanntis_df, emptyvec)
+}
+colnames(empty_sanntis_df) <- colnames(sanntis_louvain4)
+
+sanntis_louvain4 <- rbind(sanntis_louvain4, empty_sanntis_df)
+
+rownames(sanntis_louvain4) <- sanntis_louvain4$accession
+
+sanntis_louvain4 <- sanntis_louvain4[(all_sampleid_rooted),]
+
+# binary presence absence matrix
+sannits_louvain4_matrix <- as.matrix(sanntis_louvain4[,-1])
+sanntis_louvain4_matrix_binary <- as.matrix((sannits_louvain4_matrix>0)+0)
+
+sanntis_louvain4_df_binary <- as.data.frame(sanntis_louvain4_matrix_binary)
+sanntis_louvain4_df_binary$accession <- rownames(sanntis_louvain4_df_binary)
+
+# Nostocaceae
+sanntis_nostocaceae_louvain4_count_df <- nostocaceae_sanntis_clustering_hq_clusteredonly %>% group_by(accession, louvain_4) %>% summarize(count = n(), habitat_type = simple_habitat,  isolation_source_host_focus = isolation_source_host_focus) %>% distinct() 
+
+sanntis_nostocaceae_louvain4 <- sanntis_nostocaceae_louvain4_count_df %>% pivot_wider(id_cols = accession, names_from = louvain_4, values_from = count, values_fill = 0) %>% as.data.frame()
+
+rownames(sanntis_nostocaceae_louvain4) <- sanntis_nostocaceae_louvain4$accession
+
+sanntis_nostocaceae_louvain4 <- sanntis_nostocaceae_louvain4[(nostocaceae_sampleid_rooted),]
+
+# binary presence absence matrix
+sannits_nostocaceae_louvain4_matrix <- as.matrix(sanntis_nostocaceae_louvain4[,-1])
+sanntis_nostocaceae_louvain4_matrix_binary <- as.matrix((sannits_nostocaceae_louvain4_matrix>0)+0)
+
+sanntis_nostocaceae_louvain4_df_binary <- as.data.frame(sanntis_nostocaceae_louvain4_matrix_binary)
+sanntis_nostocaceae_louvain4_df_binary$accession <- rownames(sanntis_nostocaceae_louvain4_df_binary)
+```
+
+#### Phylum - Simple Habitat
+```{r, include = FALSE}
+phyloglm_meta <- all_cyanotree_metadata[,c("accession", "simple_habitat")]
+rownames(phyloglm_meta) <- phyloglm_meta$accession
+phyloglm_meta<- phyloglm_meta[all_sampleid_rooted,]
+
+louvain4_phyloglm_list <- vector("list", length = ncol(sanntis_louvain4_df_binary)-1)
+names(louvain4_phyloglm_list) <- colnames(sanntis_louvain4_df_binary)[-62]
+
+for (i in 1:(ncol(sanntis_louvain4_df_binary))){
+  set.seed(777)
+  louvain4_vector <- sanntis_louvain4_df_binary[,i]
+  clustername <- paste0("CLUSTER:", colnames(sanntis_louvain4_df_binary)[i])
+  phyloglm_df <- data.frame(trait = louvain4_vector, predictor = phyloglm_meta$simple_habitat)
+  rownames(phyloglm_df) <- phyloglm_meta$accession
+  louvain4_phyloglm_list[[i]] <- withWarnings(phyloglm(trait~predictor,phy=all_cyano_tree_rooted,data=phyloglm_df,boot=100, method = "logistic_MPLE")) 
+}
+
+louvain4_phyloglm_results <- get_phyloglm_results(louvain4_phyloglm_list)
+```
+
+##### Significant Louvain 4 Clusters - Simple Habitats
+```{r, include = FALSE}
+significant_louvain4_simplehab <- data.frame(louvain_4 = c("181","37","0","195","10","168","150","142","207","767","237","60","269","166","30","251","198","144","212","6","160","179","262","53","243","208","561","91","131","192","219","169"), coeff = c(1.5821953,1.56767796,1.52676247,1.63854543,-2.2582693,1.54339946,1.38124158,1.53446611,1.05734636,1.88292865,1.18500001,-1.7252266,-2.1886726,2.37956196,0.99490438,1.43444997,2.76224363,1.71416459,2.10027069,2.59076121,-1.4632182,1.0900349,1.10782693,1.52716084,-1.4987096,2.97598208,1.42846202,0.7443317,-1.5217304,1.07542846,-1.5689234,1.14904705))
+
+allsig_louvain4_id <- significant_louvain4_simplehab$louvain_4
+significant_louvain4_all_cyano_matrix <- sanntis_louvain4_df_binary[,significant_louvain4_simplehab$louvain_4]
+significant_louvain4_all_cyano_matrix$accession <- rownames(significant_louvain4_all_cyano_matrix)
+significant_louvain4_all_cyano_matrix <- gather(significant_louvain4_all_cyano_matrix,"louvain_4", "completeness_score", 1:(ncol(significant_louvain4_all_cyano_matrix)-1))
+
+significant_louvain4_all_cyano_df_meta <- merge(significant_louvain4_all_cyano_matrix, metadata_gtdbtktax)
+significant_louvain4_all_cyano_df_meta <- merge(significant_louvain4_all_cyano_df_meta, sanntis_clustering_hq_clusteredonly)
+significant_louvain4_all_cyano_df_meta <- merge(significant_louvain4_all_cyano_df_meta, significant_louvain4_simplehab)
+
+significantlouv4_consensus_meta <- significant_louvain4_all_cyano_df_meta %>% group_by(louvain_4, CLASS) %>% summarize(count = n())
+
+consensus_bgcgroups <- tapply(structure(significantlouv4_consensus_meta$count,names=significantlouv4_consensus_meta$CLASS),significantlouv4_consensus_meta$louvain_4,function(x)names(x)[which.max(x)]) %>% as.data.frame()
+colnames(consensus_bgcgroups) <- c("bgc_consensus_class")
+consensus_bgcgroups$louvain_4 <- rownames(consensus_bgcgroups)      
+
+significant_louvain4_all_cyano_df_meta <- merge(significant_louvain4_all_cyano_df_meta, consensus_bgcgroups)
+
+significant_louvain4_all_cyano_increasing <- unique(significant_louvain4_all_cyano_df_meta[order(significant_louvain4_all_cyano_df_meta$coeff, decreasing = TRUE),]$louvain_4)
+significant_louvain4_all_cyano_df_meta$louvain_4 <- factor(significant_louvain4_all_cyano_df_meta$louvain_4, levels = significant_louvain4_all_cyano_increasing)
+significant_louvain4_all_cyano_df_meta$impact <- "Positive"
+significant_louvain4_all_cyano_df_meta[significant_louvain4_all_cyano_df_meta$coeff < 0,]$impact <- "Negative"
+significant_louvain4_all_cyano_df_meta_condensed <- significant_louvain4_all_cyano_df_meta %>% group_by(louvain_4) %>% summarize(consensus_class = bgc_consensus_class, impact = impact, coeff = coeff) %>% distinct()
+
+significant_louvain4_all_cyano_habitatcounts <- significant_louvain4_all_cyano_df_meta[significant_louvain4_all_cyano_df_meta$completeness_score > 0,] %>% group_by(louvain_4, simple_habitat) %>% summarize(count = n(), impact = impact) %>% distinct()
+
+lifestyle_df <- all_cyanotree_metadata %>% group_by(simple_habitat) %>% summarize(divide_by = n())
+
+significant_louvain4_all_cyano_habitatcounts <- merge(significant_louvain4_all_cyano_habitatcounts, lifestyle_df, by = "simple_habitat")
+significant_louvain4_all_cyano_habitatcounts$prop <- (significant_louvain4_all_cyano_habitatcounts$count / significant_louvain4_all_cyano_habitatcounts$divide_by) * 100
+
+significant_louvain4_all_cyano_habitatcounts_barplot <- ggplot(significant_louvain4_all_cyano_habitatcounts, aes(x = louvain4, y = prop, fill = simple_habitat))+geom_bar(stat = "identity", position = position_dodge(preserve = "single"))+scale_y_continuous(expand = c(0,0))+facet_grid(~impact, scales = "free", space = "free")+theme_bw()+labs(x = "BGC Group ID", y = "Scaled Frequency", fill = "Lifestyle Classification")+scale_fill_manual(values = c("grey","black"))
+
+significant_louvain4_all_cyano_df_meta$impact <- "positive"
+significant_louvain4_all_cyano_df_meta[significant_louvain4_all_cyano_df_meta$coeff <0,]$impact <- "negative"
+
+bgc_class_consensus_cols <- data.frame("consensus_class" = unique(significant_louvain4_all_cyano_df_meta_condensed$consensus_class), colortext = c("#000000","#8f8782","#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#ba43b4"))
+
+significant_louvain4_all_cyano_df_meta_condensed_colour <- merge(significant_louvain4_all_cyano_df_meta_condensed, bgc_class_consensus_cols)
+
+significant_louvain4_all_cyano_df_meta_condensed_colour$label <- paste("<span style = 'color:",significant_louvain4_all_cyano_df_meta_condensed_colour$colortext,";'>",as.character(significant_louvain4_all_cyano_df_meta_condensed_colour$louvain_4),"</span>", sep = "")
+
+significant_louvain4colourclass_all_cyano_increasing <- unique(significant_louvain4_all_cyano_df_meta_condensed_colour[order(significant_louvain4_all_cyano_df_meta_condensed_colour$coeff, decreasing = TRUE),]$label)
+
+significant_louvain4_all_cyano_df_meta_condensed_colour$label <- factor(significant_louvain4_all_cyano_df_meta_condensed_colour$label, levels = significant_louvain4colourclass_all_cyano_increasing)
+
+significant_louvain4_phylum_barplot_coefficients <- ggplot(significant_louvain4_all_cyano_df_meta_condensed_colour, aes(y = label, x = coeff, fill = impact))+geom_bar(stat = "identity", width = 0.5)+scale_fill_manual(values = c("#b60a1c","#51b364"))+theme_bw()+theme(legend.position = "none", axis.title.x = element_text(size = 16), axis.text.x = element_text(size = 14), axis.title.y = element_text(size = 16), axis.text.y = element_markdown(size = 14))+labs(y = "BGC Group ID", x = "Coefficient Estimate")+scale_x_continuous(expand = c(0,0), limits = c(-3,3))+geom_vline(xintercept = 0, linetype = "dotted", size = 1.5)+scale_y_discrete()
+
+significant_louvain4_all_cyano_df_meta_nostocsub <-significant_louvain4_all_cyano_df_meta[significant_louvain4_all_cyano_df_meta$accession %in% nostocaceae_symbiont_prune$tip.label,]
+
+significant_louvain4_all_cyano_df_meta_nostocsub_colourlabs <- merge(significant_louvain4_all_cyano_df_meta_nostocsub, significant_louvain4_all_cyano_df_meta_condensed_colour)
+
+geomtile_louvain4_nostocaceae <- ggplot(significant_louvain4_all_cyano_df_meta_nostocsub_colourlabs[significant_louvain4_all_cyano_df_meta_nostocsub_colourlabs$completeness_score == 1 & significant_louvain4_all_cyano_df_meta_nostocsub_colourlabs$louvain_4 %in% allsig_louvain4_id,], aes(x = (label), y = accession, fill = isolation_source_host_focus))+geom_tile()+
+scale_fill_manual(values = habclass_cols)+theme_bw()+theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(), axis.title.y = element_blank(), axis.text.x = element_markdown(angle = 90, hjust = 1, size = 14),axis.title.x = element_text(size = 16), panel.border = element_rect(colour = "black"), legend.text = element_text(size = 14), legend.title = element_text(size = 16))+labs(x = "BGC Group ID", fill = "Isolation Source")+scale_x_discrete(expand = c(0,0))+scale_y_discrete(expand = c(0,0))+scale_alpha_identity() 
+
+geomtile_ggtree_louvain4 <- geomtile_louvain4_nostocaceae %>% insert_left(nostocaceae_symbiont_prune_genushi)
+```
+
+#### Nostocaceae - Isolation Source
+```{r, include = FALSE}
+phyloglm_meta_nostoc <- nostocaceae_cyanotree_metadata[,c("accession", "simple_habitat","isolation_source_host_focus")]
+rownames(phyloglm_meta_nostoc) <- phyloglm_meta_nostoc$accession
+phyloglm_meta_nostoc <- phyloglm_meta_nostoc[nostocaceae_sampleid_rooted,]
+
+louvain4_phyloglm_list_nostoc_btol50 <- vector("list", length = ncol(sanntis_nostocaceae_louvain4_matrix_binary))
+names(louvain4_phyloglm_list_nostoc_btol50) <- colnames(sanntis_nostocaceae_louvain4_matrix_binary)
+
+for (i in 1:(ncol(sanntis_nostocaceae_louvain4_matrix_binary))){
+  louvain4_vector <- sanntis_nostocaceae_louvain4_matrix_binary[,i]
+  clustername <- paste0("CLUSTER:", colnames(nostocaceae_kegg_matrix_nosinglestate)[i])
+  phyloglm_df <- data.frame(trait = louvain4_vector, predictor = phyloglm_meta_nostoc$isolation_source_host_focus)
+  rownames(phyloglm_df) <- phyloglm_meta_nostoc$accession
+  louvain4_phyloglm_list_nostoc_btol50[[i]] <- withWarnings(phyloglm(trait~predictor,phy=nostocaceae_tree,data=phyloglm_df,boot=100, method = "logistic_MPLE", btol = 20))
+}
+
+louvain4_phyloglm_nostoc_results <- get_phyloglm_results(louvain4_phyloglm_list_nostoc_btol50)
+```
+
+#### Phylo D Statistic - Significant Louvain4 in Nostocaceae
+```{r, include = FALSE}
+allsig_louvain4_id <- significant_louvain4_simplehab$louvain_4
+
+phylo_d_list_louvain4 <- vector("list", length = ncol(sanntis_nostocaceae_louvain4_matrix_binary))
+names(phylo_d_list_louvain4) <- colnames(sanntis_nostocaceae_louvain4_matrix_binary)
+
+sanntis_nostocaceae_louvain4_matrix_df <- as.data.frame(sanntis_nostocaceae_louvain4_matrix_binary)
+sanntis_nostocaceae_louvain4_matrix_df$genome <- rownames(sanntis_nostocaceae_louvain4_matrix_binary)
+
+comparative_df_louvain4 <- caper::comparative.data(nostocaceae_tree, as.data.frame(sanntis_nostocaceae_louvain4_matrix_df), names.col = genome)
+
+phylo.d2 <- function (data, phy, names.col, binvar, permut = 1000, rnd.bias = NULL) 
+{
+  if (!missing(data)) {
+    if (!inherits(data, "comparative.data")) {
+      if (missing(names.col)) 
+        stop("names column is missing")
+      names.col <- deparse(substitute(names.col))
+      data <- caicStyleArgs(data = data, phy = phy, names.col = names.col)
+    }
+  }
+  #binvar <- deparse(substitute(binvar))
+  bininds <- match(binvar, names(data$data))
+  if (is.na(bininds)) 
+    (stop("'", binvar, "' is not a variable in data."))
+  ds <- data$data[, bininds]
+  if (any(is.na(ds))) 
+    stop("'", binvar, "' contains missing values.")
+  if (is.character(ds)) 
+    ds <- as.factor(ds)
+  if (length(unique(ds)) > 2) 
+    stop("'", binvar, "' contains more than two states.")
+  if (length(unique(ds)) < 2) 
+    stop("'", binvar, "' only contains a single state.")
+  propStates <- unclass(table(ds))
+  propState1 <- propStates[1]/sum(propStates)
+  names(dimnames(propStates)) <- binvar
+  if (is.factor(ds)) 
+    ds <- as.numeric(ds)
+  if (!is.numeric(permut)) 
+    (stop("'", permut, "' is not numeric."))
+  if (!is.null(rnd.bias)) {
+    rnd.bias <- deparse(substitute(rnd.bias))
+    rnd.ind <- match(rnd.bias, names(data$data))
+    if (is.na(rnd.ind)) 
+      (stop("'", rnd.bias, "' is not a variable in data."))
+    rnd.bias <- data$data[, rnd.bias]
+  }
+  el <- data$phy$edge.length
+  elTip <- data$phy$edge[, 2] <= length(data$phy$tip.label)
+  if (any(el[elTip] == 0)) 
+    stop("Phylogeny contains pairs of tips on zero branch lengths, cannot currently simulate")
+  if (any(el[!elTip] == 0)) 
+    stop("Phylogeny contains zero length internal branches. Use di2multi.")
+  ds.ran <- replicate(permut, sample(ds, prob = rnd.bias))
+  if (is.null(data$vcv)) {
+    vcv <- VCV.array(data$phy)
+  }
+  else {
+    vcv <- data$vcv
+  }
+  ds.phy <- rmvnorm(permut, sigma = unclass(vcv))
+  ds.phy <- as.data.frame(t(ds.phy))
+  ds.phy.thresh <- apply(ds.phy, 2, quantile, propState1)
+  ds.phy <- sweep(ds.phy, 2, ds.phy.thresh, "<")
+  ds.phy <- as.numeric(ds.phy)
+  dim(ds.phy) <- dim(ds.ran)
+  ds.ran <- cbind(Obs = ds, ds.ran)
+  ds.phy <- cbind(Obs = ds, ds.phy)
+  dimnames(ds.ran) <- dimnames(ds.phy) <- list(data$phy$tip.label, 
+                                               c("Obs", paste("V", 1:permut, sep = "")))
+  phy <- reorder(data$phy, "pruningwise")
+  ds.ran.cc <- contrCalc(vals = ds.ran, phy = phy, ref.var = "V1", 
+                         picMethod = "phylo.d", crunch.brlen = 0)
+  ds.phy.cc <- contrCalc(vals = ds.phy, phy = phy, ref.var = "V1", 
+                         picMethod = "phylo.d", crunch.brlen = 0)
+  ransocc <- colSums(ds.ran.cc$contrMat)
+  physocc <- colSums(ds.phy.cc$contrMat)
+  if (round(ransocc[1], digits = 6) != round(physocc[1], digits = 6)) 
+    stop("Problem with character change calculation in phylo.d")
+  obssocc <- ransocc[1]
+  ransocc <- ransocc[-1]
+  physocc <- physocc[-1]
+  soccratio <- (obssocc - mean(physocc))/(mean(ransocc) - mean(physocc))
+  soccpval1 <- sum(ransocc < obssocc)/permut
+  soccpval0 <- sum(physocc > obssocc)/permut
+  dvals <- list(DEstimate = soccratio, Pval1 = soccpval1, Pval0 = soccpval0, 
+                Parameters = list(Observed = obssocc, MeanRandom = mean(ransocc), 
+                                  MeanBrownian = mean(physocc)), StatesTable = propStates, 
+                Permutations = list(random = ransocc, brownian = physocc), 
+                NodalVals = list(observed = ds.ran.cc$nodVal[, 1, drop = FALSE], 
+                                 random = ds.ran.cc$nodVal[, -1, drop = FALSE], brownian = ds.phy.cc$nodVal[, 
+                                                                                                            -1, drop = FALSE]), binvar = binvar, data = data, 
+                nPermut = permut, rnd.bias = rnd.bias)
+  class(dvals) <- "phylo.d"
+  return(dvals)
+}
+for (i in 1:length(phylo_d_list_louvain4)){
+  bgc_id <- colnames(sanntis_nostocaceae_louvain4_matrix_df)[i]
+  phylo_d_list_louvain4[[i]] <- phylo.d2(comparative_df_louvain4, binvar = bgc_id)
+}
+
+significant_phylod_louvain4 <- vector("list", length(phylo_d_list_louvain4))
+names(significant_phylod_louvain4) <- names(phylo_d_list_louvain4)
+
+for (i in 1:length(phylo_d_list_louvain4)){
+  if (phylo_d_list_louvain4[[i]]$Pval1 <= 0.05){
+    significant_phylod_louvain4[[i]] <- phylo_d_list_louvain4[[i]]}else{
+      next
+      }
+  }
+
+significant_phylod_louvain4 <- significant_phylod_louvain4[!sapply(significant_phylod_louvain4,is.null)]
+nonrandom_phylod_louvain4 <- names(significant_phylod_louvain4)
+
+```
+
+```{r, include = FALSE}
+kofamscan <- kofamscan_bulk("/data/kofamscan/")
+
+kofamscan[kofamscan$sample_id == "public_SRR14722282_metawrap_bin.1_rename",]$sample_id <- "public_SRR14722282_metawrap_bin.1"
+
+kofamscan[kofamscan$sample_id == "public_SRR11456913_metawrap_bin.11_rename",]$sample_id <- "public_SRR11456913_metawrap_bin.11"
+# expect 984 genomes 
+kofamscan_hq <- kofamscan[kofamscan$sample_id %in% highq_cyanos_only,]
+kofamscan_hq$sample_seq <- NULL
+colnames(kofamscan_hq)[2] <- "accession"
+kofamscan_hq_meta_nostocsymbionts <- merge(metadata_gtdbtk_nostoc_genus_symbionts, kofamscan_hq)
+kofamscan_hq_meta_nostocsymbionts$treeorder <- factor(kofamscan_hq_meta_nostocsymbionts$accession, levels = nostocaceae_sampleid_rooted)
+kofamscan_hq_df <- kofamscan_hq %>% group_by(accession, KEGG) %>% summarize(count = n()) %>% as.data.frame()
+
+kofamscan_hq_df_wide <- pivot_wider(kofamscan_hq_df, names_from = KEGG, values_from = count,values_fill = 0)
+
+# KO numbers of interest
+nitrogenfix_femo <- c("K02588", "K02586", "K02591", "K00531")
+nitrogenfix_vanadium <- c("K22896", "K22897", "K22898", "K22899")
+
+kofamscan_symbiont_nitrogenfixkegg <- kofamscan_hq_meta_nostocsymbionts[kofamscan_hq_meta_nostocsymbionts$KEGG %in% c(nitrogenfix_femo, nitrogenfix_vanadium),]
+kofamscan_symbiont_nitrogenfixkegg$nfixtype <- "Fe-Mo"
+kofamscan_symbiont_nitrogenfixkegg[kofamscan_symbiont_nitrogenfixkegg$KEGG %in% nitrogenfix_vanadium,]$nfixtype <- "Vanadium"
+
+kofamscan_symbiont_summary <- kofamscan_hq_meta_nostocsymbionts %>% group_by(accession) %>% summarize(count = n(), isolation_source_host_focus = isolation_source_host_focus) %>% distinct() %>% group_by(isolation_source_host_focus) %>% summarize(divideby = n())
+
+kofamscan_symbiont_nitrogenfixkegg_summary <- kofamscan_symbiont_nitrogenfixkegg %>% group_by(accession, nfixtype) %>% summarize(count = n(), isolation_source_host_focus = isolation_source_host_focus) %>% distinct() %>% group_by(isolation_source_host_focus, nfixtype) %>% summarize(count = n())
+
+kofamscan_symbiont_nitrogenfixkegg_summary <- merge(kofamscan_symbiont_nitrogenfixkegg_summary, kofamscan_symbiont_summary)
+
+nitrogenfixkofam_tileplot <- ggplot(kofamscan_symbiont_nitrogenfixkegg, aes(x = KEGG, y = treeorder, fill = isolation_source_host_focus))+geom_tile()+facet_wrap(~nfixtype, scales = "free_x")+theme_bw()+theme(axis.text.y = element_blank(), axis.title.y = element_blank(), axis.text.x = element_text(size = 14, angle = 90, hjust = 1), legend.text = element_text(size = 14), legend.title = element_text(size = 16), axis.title.x = element_text(size = 16))+scale_fill_manual(values = habclass_cols)+labs(x = "KEGG Ortholog ID", fill = "Habitat Classification")
+
+nitrogenfixkofamtiles_ggtree <- nitrogenfixkofam_tileplot %>% insert_left(nostocaceaeprune_ggtree_colouredtips)
+
+nitrogenfixkofamtiles_ggtreehilite <-nitrogenfixkofam_tileplot %>% insert_left(nostocaceae_symbiont_prune_genushi)
+```
