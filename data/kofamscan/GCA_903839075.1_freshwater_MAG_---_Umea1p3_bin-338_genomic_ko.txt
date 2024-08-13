@@ -1,0 +1,2653 @@
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1	K13038
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2	K01695
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq3	K01696
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq4
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq5
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq6	K00766
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq7	K01658
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq8	K01657
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq9
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq10
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq11
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq12
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq13
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq14	K01512
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq15
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq16	K00263
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq17	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq18
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq19
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq20
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq21	K11329
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq21	K02483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq21	K03413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq22
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq23
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq24
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq25	K01652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq26
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq27	K00053
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq28
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq29	K00057
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq30	K08591
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq31	K03977
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq32	K06971
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq33	K01299
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq34	K02656
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq35	K21552
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq36	K03218
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq37
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq38
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq39
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq40
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq41
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq42	K06884
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq43
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq44
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq45	K07397
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq46
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq47
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq48
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq49	K01658
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq50
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq51	K02851
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq52	K00600
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq53	K01808
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq54
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq55	K01669
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq56
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq57
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq58
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq59
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq60	K01724
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq61
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq62	K06381
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq63
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq64
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq65	K06894
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq66	K18346
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq67
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq68
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq69	K03300
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq70
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq71
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq72
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq73
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq74
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq75
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq76
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq77
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq78	K04761
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq79
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq80
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq81
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq82
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq83
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq84	K00942
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq85
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq86	K05337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq87	K03593
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq88
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq89
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq90	K00826
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq91
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq92
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq93
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq94
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq95	K00797
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq96
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq97
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq98
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq99
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq100	K06143
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq101
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq102
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq103	K02483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq104	K08997
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq105	K02034
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq106	K02033
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq107	K02348
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq108	K06929
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq109	K03186
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq110
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq112
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq113	K18707
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq114
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq115	K07723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq116
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq117	K01756
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq118
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq119	K01214
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq120
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq121
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq122	K03798
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq123	K01881
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq124	K03596
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq125
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq126
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq127	K08640
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq128
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq129
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq131
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq132
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq133
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq134
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq135
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq136
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq137
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq138
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq140
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq141
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq142
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq143
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq144
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq145
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq146	K15987
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq147	K07723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq148
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq149	K03088
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq150
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq151
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq152
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq154	K15725
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq155	K24915
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq156
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq157
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq158	K02013
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq159
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq160	K16092
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq160	K02014
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq161	K01768
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq162
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq163	K03427
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq164
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq165	K01154
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq166
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq167
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq168	K01153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq169
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq170
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq171
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq172
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq173
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq174
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq175
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq176
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq177	K14059
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq178
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq179	K00231
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq180	K01772
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq181	K02495
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq182	K01599
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq183
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq184
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq185
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq186
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq187
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq188	K06180
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq189	K03101
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq190
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq191	K02397
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq192	K02396
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq193	K02399
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq194
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq195	K02395
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq196	K02394
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq197	K02393
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq198	K02386
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq199	K02392
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq199	K02391
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq200	K02391
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq201	K08309
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq202
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq203
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq204
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq205	K09457
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq206
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq207
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq208	K01491
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq209	K04564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq210	K02067
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq211
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq212	K02066
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq213	K03179
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq214	K04771
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq215	K10697
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq216	K02950
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq217	K02992
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq218	K02355
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq219
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq220
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq221	K00058
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq222	K03832
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq223
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq224	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq225
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq226	K02358
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq227	K02946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq228	K02906
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq229	K02926
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq230
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq231	K02886
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq232	K02965
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq233	K02890
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq234	K02982
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq235	K02878
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq236	K02904
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq237	K02961
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq238	K02874
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq239	K02895
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq240	K02931
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq241	K02994
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq242	K02933
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq243	K02881
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq244	K03608
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq245	K03609
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq246	K03610
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq247	K00261
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq248	K04762
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq249	K01689
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq250	K05808
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq251	K09940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq252
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq253
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq254	K06942
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq255	K00060
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq256	K00639
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq256	K00652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq257
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq258
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq259
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq260
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq261
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq262
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq263	K00806
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq264
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq266
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq267
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq268	K23356
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq269	K02939
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq270	K03652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq271	K00790
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq272
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq273	K09763
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq274	K02503
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq275
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq276	K00761
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq277	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq278	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq279
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq280
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq281
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq283	K03561
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq284	K03559
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq285	K03559
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq286	K00703
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq287
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq288	K01883
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq289	K11145
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq290	K02067
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq291	K07052
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq292
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq293	K02389
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq295	K02413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq296
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq297
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq298
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq299
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq300	K09667
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq301
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq302
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq303	K01737
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq304	K09710
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq305
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq306	K09769
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq307	K03553
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq308
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq309	K16149
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq310	K08309
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq311
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq312
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq313	K00694
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq314
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq315
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq316	K07560
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq317	K01520
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq318	K01803
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq319	K00134
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq320
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq321
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq322
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq323
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq324
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq325	K00865
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq326	K01207
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq327	K03650
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq328	K03555
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq329	K06142
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq330	K07277
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq331	K07027
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq332
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq333
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq334	K01778
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq335
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq336	K01297
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq338
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq339	K03820
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq340	K01159
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq341
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq342	K01935
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq343
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq344	K00283
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq345	K00282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq346	K02437
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq347	K00605
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq348
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq349	K06442
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq350	K01056
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq351
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq352
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq353
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq354
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq355	K02836
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq356	K03786
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq357	K03495
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq358	K07391
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq359	K04773
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq360
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq361
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq362	K16203
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq363
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq364
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq365
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq366
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq367
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq368
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq369
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq370
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq371	K02413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq372
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq373
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq374
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq375	K03183
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq376
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq377
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq378
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq379
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq380	K22187
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq381
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq382	K01893
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq383	K02279
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq384	K02280
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq385	K02282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq386	K02283
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq387	K12510
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq388	K12511
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq389	K07098
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq391	K10112
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq392
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq393
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq394
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq395	K05810
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq396
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq397
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq398
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq399	K01258
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq401	K09005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq402	K03723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq403
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq404	K06384
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq405
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq407	K01962
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq408	K01963
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq409
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq410	K22719
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq411
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq412
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq413	K02313
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq414	K02914
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq415	K03217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq416	K03500
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq417	K06973
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq418	K00604
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq419	K01462
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq420
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq421
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq422	K03924
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq423	K02823
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq424	K17828
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq425	K00873
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq426
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq427	K03665
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq428
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq429	K02032
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq430
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq431
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq432
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq433
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq434	K10026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq435
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq436
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq437	K07098
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq438	K04567
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq439	K00053
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq440
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq441
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq442	K00024
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq443	K01258
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq444	K01515
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq445
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq446
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq447	K01591
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq448	K01448
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq449	K01945
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq450
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq451
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq452
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq453	K00249
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq454	K01889
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq455	K01890
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq456
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq457	K00773
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq458
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq459	K00626
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq460	K00074
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq461	K01174
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq462	K06287
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq463	K07478
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq464
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq465	K01870
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq466
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq467	K03075
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq468
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq469
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq470	K00655
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq471
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq472	K02556
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq473	K02557
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq474
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq475	K00330
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq476	K00331
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq476	K05582
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq477
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq478	K00333
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq479	K00337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq480	K00338
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq481	K00339
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq482	K00340
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq483	K00341
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq484	K00342
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq485	K00343
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq486	K04094
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq487
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq488	K07263
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq489
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq490
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq491
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq492
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq493	K01990
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq494
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq495
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq496
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq497	K00760
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq498	K04075
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq499	K04771
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq500
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq501	K07317
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq502
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq503	K02963
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq504	K03111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq505	K02990
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq506
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq508
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq509
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq510
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq511
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq512
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq513
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq514	K01610
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq515
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq516
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq517	K01012
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq518
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq519	K01939
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq520	K08972
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq521
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq522
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq523
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq524	K07040
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq525	K02911
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq526	K03621
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq527	K00648
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq528	K00645
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq529	K00059
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq530	K02078
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq531	K09458
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq532	K15256
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq533
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq534	K02066
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq535	K00826
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq536	K15633
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq537	K13017
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq538
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq539
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq540
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq541
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq542	K05592
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq543	K00507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq544
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq545
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq546
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq547	K01759
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq548
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq549
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq550
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq551
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq552
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq553	K02837
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq554
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq555
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq556	K02563
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq557	K03588
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq558	K01925
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq559	K01000
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq560	K01929
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq561
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq562
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq563	K02342
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq564	K01142
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq565
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq567
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq568
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq569	K17947
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq570	K01953
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq571
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq572
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq573	K09761
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq574	K02687
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq575	K10206
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq576	K23393
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq577
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq578
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq579	K02405
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq580
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq581
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq582
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq583
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq584
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq585
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq586	K03644
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq587	K00166
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq588	K00167
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq589	K00627
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq589	K09699
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq590	K00382
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq591	K11720
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq592	K03671
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq593
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq594
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq595
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq596	K01878
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq597	K01126
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq598
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq599
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq600	K16899
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq601	K03657
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq602
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq603	K03437
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq604	K03118
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq605
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq606
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq607
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq608
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq609
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq610
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq611
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq612
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq613
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq614
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq615
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq616	K01736
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq617	K00800
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq617	K00891
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq618
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq619
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq620
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq621
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq622
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq623
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq624
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq625
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq626	K01619
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq627
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq628
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq629	K03530
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq630
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq631
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq632
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq633
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq634	K00767
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq635	K00278
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq636	K09748
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq637	K02600
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq638	K02519
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq639	K02834
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq640
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq641	K22129
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq642	K03111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq643	K01092
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq644	K05540
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq645
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq646	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq647	K00912
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq648
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq649	K07456
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq650
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq651	K00950
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq652	K06168
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq653
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq654
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq655
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq656	K09811
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq657	K09812
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq658	K00688
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq659
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq660
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq661
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq662
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq663
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq664	K01005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq665
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq666
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq667
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq668	K03525
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq669
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq670
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq671
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq672
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq673
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq674	K13626
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq675	K03563
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq676
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq677
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq678
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq679	K01251
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq680
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq681
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq682
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq683
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq684
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq685
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq686
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq687
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq688	K01783
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq689
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq690	K14054
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq691	K02945
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq692
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq693
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq694	K07139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq695
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq696	K00820
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq697
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq698	K01866
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq699	K20541
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq700	K20541
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq701	K01867
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq702
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq703
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq704	K11784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq705
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq706
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq707
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq708	K03526
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq709	K03270
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq710
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq711	K01714
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq712	K00133
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq713
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq714
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq715	K02340
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq716
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq717
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq718	K02651
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq719
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq720
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq721	K00615
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq722	K05946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq724	K03544
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq725	K01358
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq726	K03545
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq727
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq728	K01775
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq729	K15581
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq729	K02033
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq730	K02034
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq731
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq732
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq733
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq734
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq735
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq736	K11991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq737
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq738
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq739	K03572
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq740
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq741	K00975
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq742
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq743	K00240
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq744	K00239
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq745
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq746
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq747
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq748
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq749
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq750
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq751	K03406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq752	K03406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq753	K03406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq754	K03413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq755	K03409
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq756	K03413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq757	K00575
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq758	K03412
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq759	K03408
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq760	K03407
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq761
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq762	K03406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq763	K02400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq764	K02411
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq765
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq766
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq767	K02409
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq768	K02408
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq769	K08309
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq770	K02388
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq771
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq772
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq773
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq774
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq775
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq776
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq777	K02641
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq778	K00311
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq779	K00887
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq780	K07042
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq781	K07037
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq782
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq783	K21929
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq785
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq786	K06889
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq787
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq788
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq789
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq790
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq791	K03928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq792
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq793
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq794
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq795
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq796
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq797	K09919
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq798	K08966
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq799
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq800
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq801
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq802
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq803	K15727
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq804	K15726
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq805
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq806
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq807
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq808	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq809	K00971
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq810	K01711
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq811	K02377
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq812
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq813
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq814
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq815
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq816
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq817	K16567
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq818
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq819
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq820	K05946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq821	K16568
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq822
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq823
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq824
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq825
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq826	K11354
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq827	K01697
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq827	K01738
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq828
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq829
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq830	K07301
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq831	K01139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq832
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq833	K04085
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq834
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq835	K00602
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq836	K07052
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq837
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq838
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq839
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq840	K01937
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq841	K02435
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq842
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq843
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq844	K03801
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq845	K00640
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq846
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq847	K03182
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq848
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq849	K23264
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq850	K23265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq851
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq852	K01885
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq853	K03642
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq854	K16264
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq855
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq856	K01873
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq857
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq858
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq859	K04759
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq860
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq861
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq862	K02242
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq863
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq864	K05946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq865	K08151
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq865	K08153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq865	K12307
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq866	K10563
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq867
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq868	K01897
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq869	K01462
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq870	K03567
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq871	K04063
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq872	K01588
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq873	K01589
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq874	K01758
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq874	K01760
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq874	K01739
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq875	K00014
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq876
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq877
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq878
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq879	K06381
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq880	K23997
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq881
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq882
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq883
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq884
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq885	K25026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq886	K02528
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq887	K00919
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq888
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq889
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq890
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq891
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq892
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq893
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq894	K00027
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq895	K00052
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq896
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq897
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq898	K03317
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq899	K11754
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq900
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq901	K01494
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq902	K04517
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq903
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq904
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq905	K01869
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq906
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq907	K03438
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq908	K21053
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq908	K01488
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq909
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq910	K03465
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq911
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq912	K03474
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq913
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq914
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq915
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq916
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq917	K02652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq918	K02493
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq919	K04043
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq920	K02238
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq921	K00940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq922
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq923
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq924	K07399
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq925
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq926
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq927
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq929	K01872
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq930
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq931	K03574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq932
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq933	K01719
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq934
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq935
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq936
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq937	K03926
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq938	K03569
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq939	K03216
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq941
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq942	K01749
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq943	K02492
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq944	K00789
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq945	K01788
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq946	K01129
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq947	K02316
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq948	K03086
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq949
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq950
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq951
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq952
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq953	K04078
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq954	K04077
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq955
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq956
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq957	K00979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq958	K07106
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq959
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq960
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq961
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq962
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq963	K11752
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq964	K03313
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq965
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq966	K02825
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq967
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq968	K18189
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq969
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq970
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq971
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq972
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq973	K01468
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq974	K01712
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq975	K01745
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq976
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq977
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq978
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq980
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq981	K01956
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq982	K01955
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq983
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq984
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq985
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq986
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq987
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq988
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq989
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq990	K01154
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq992	K03427
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq993	K01153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq994
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq995
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq996
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq997	K02422
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq998	K02423
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq999
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1000	K02864
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1001	K02935
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1002	K03043
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1002	K03046
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1003	K03046
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1004	K03046
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1006	K02527
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1007	K06881
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1008
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1009
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1010
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1011	K09005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1012
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1013
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1014
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1015	K01776
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1016	K01448
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1017	K02669
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1018	K01875
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1019
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1020
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1021	K01915
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1022
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1023	K06888
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1024
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1025
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1027
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1028
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1029
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1030
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1031
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1032
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1033	K07126
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1034
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1035
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1036	K14060
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1036	K06400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1037
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1038
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1039
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1040	K03502
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1041
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1042
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1043
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1044
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1045
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1046	K01255
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1047
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1048
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1049	K07533
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1049	K03770
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1050
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1051
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1052	K08316
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1053	K06196
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1054
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1055
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1056
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1057	K16566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1058	K20542
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1059	K11751
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1059	K01081
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1060
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1061	K09807
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1062
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1063	K06997
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1064	K09772
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1065	K17245
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1065	K02025
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1066	K17246
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1066	K02026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1067	K07315
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1068
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1069	K00099
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1070
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1071	K00796
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1072
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1073
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1074
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1075
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1076
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1077
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1078
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1079
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1080	K07090
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1081
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1082
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1083
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1084
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1085
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1086	K13015
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1087
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1088	K13018
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1089
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1090
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1091
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1092	K00130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1092	K00128
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1092	K00135
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1093	K11719
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1094
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1095
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1096
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1097
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1098	K00012
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1099	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1100
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1101
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1102	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1103
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1104
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1105	K02026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1105	K05815
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1106	K02025
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1106	K05814
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1106	K10118
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1107	K02027
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1108
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1109	K04042
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1110	K00677
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1111	K02372
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1112
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1113	K02536
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1114
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1115
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1116
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1117
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1118
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1119
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1120
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1121
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1122
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1123	K19294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1124
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1125
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1126
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1127
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1128	K02501
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1129	K02500
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1131
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1132	K00058
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1133
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1134
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1135
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1136
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1137
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1138	K07257
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1140	K15894
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1141
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1142
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1143	K15726
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1144	K15727
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1145
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1146	K01784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1147	K07317
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1148
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1149
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1150	K03575
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1150	K03574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1151
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1152
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1153	K00104
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1154
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1155	K11473
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1156	K18700
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1157
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1158
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1159
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1160
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1161	K01692
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1162	K15866
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1162	K01692
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1163	K02609
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1164	K00074
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1165
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1166	K00632
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1166	K00626
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1167
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1168	K00526
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1169	K00525
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1170	K20527
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1171	K09144
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1172
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1173
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1174
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1175
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1176
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1177
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1178
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1179	K01839
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1180
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1181
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1182
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1183	K00548
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1184
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1185
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1186	K00451
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1187
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1188
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1189	K03215
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1190
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1191	K02412
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1192	K02411
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1193	K02410
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1194	K02409
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1195	K02408
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1196	K02388
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1197	K02387
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1198
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1199
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1200	K00457
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1201
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1202
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1203
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1204
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1205
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1206	K03595
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1207
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1208
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1209	K03980
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1210
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1211
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1212
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1213
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1214	K16211
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1215	K06207
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1216	K00554
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1218	K02635
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1219
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1220
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1221
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1222	K02385
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1223	K03695
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1224
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1225
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1226	K02897
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1227
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1228	K03975
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1229	K03306
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1230	K07220
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1231	K01845
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1232
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1233	K02314
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1234
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1235
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1236	K01951
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1237
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1238
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1239	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1240
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1241
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1242
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1243
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1244
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1245
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1246
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1247	K08217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1247	K23448
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1248
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1249	K03564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1250
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1251
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1252
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1253
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1254
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1255
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1256	K00928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1257
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1258	K02114
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1259	K02112
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1260
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1261
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1262
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1263	K03686
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1264	K03687
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1266
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1267
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1268
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1269
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1270
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1271	K01649
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1272	K02237
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1273
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1274
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1275
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1276
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1277
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1278	K07390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1279
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1280
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1281
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1283
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1284
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1285
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1286	K02483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1287
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1288
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1289
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1290	K15897
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1291
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1292	K00472
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1293
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1295
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1296
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1297	K00640
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1298
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1299
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1300	K06044
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1301	K00705
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1302	K01236
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1303
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1304	K09667
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1305
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1306
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1307
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1308
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1309
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1310	K03521
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1311	K03522
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1312
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1313
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1314
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1315	K03208
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1316
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1317
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1318
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1319	K04047
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1320
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1321	K21929
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1322	K06872
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1323	K03744
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1324
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1325
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1326	K01704
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1327	K01703
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1328
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1329	K02342
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1330	K17686
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1331	K09949
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1332	K00748
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1333
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1334
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1335
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1336
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1338
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1339
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1340
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1341	K00111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1342	K01720
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1343	K03417
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1344	K01647
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1345
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1346	K18138
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1346	K03296
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1347	K03585
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1347	K02005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1348
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1349
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1350
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1351
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1352
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1353
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1354
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1355
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1356
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1357	K01902
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1358	K01903
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1359
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1360
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1361	K03722
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1362
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1363
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1364	K01028
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1365	K01029
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1366	K02171
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1367
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1368
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1369	K09775
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1370
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1371	K06949
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1372	K11782
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1373	K18285
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1374	K00973
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1375	K16870
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1376
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1377	K04485
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1378	K02418
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1379	K03411
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1380
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1381	K03531
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1382	K08963
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1383
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1384
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1385
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1386
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1387
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1388
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1389	K01710
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1391	K16710
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1392
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1393
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1394	K18475
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1394	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1395	K13292
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1396
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1397	K01770
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1398	K21064
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1399
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1401
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1402	K01843
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1403
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1404	K15580
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1404	K02035
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1405
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1407
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1408	K18138
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1409
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1410	K01784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1411
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1412
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1414
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1415
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1416
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1417	K07474
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1418
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1419
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1420
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1421
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1422
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1423
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1424	K02314
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1425
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1426
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1427
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1428
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1429
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1430
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1431
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1432
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1433
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1434
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1435	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1436
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1437	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1438	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1439	K02406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1440
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1441
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1442
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1443
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1444	K01265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1445
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1446	K09780
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1447	K07316
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1448
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1449
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1450
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1451
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1452	K06937
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1453	K13292
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1454
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1455
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1456
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1457
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1458	K03742
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1459
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1460	K03106
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1461	K03110
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1462	K03625
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1463
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1464	K03273
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1465
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1466	K03530
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1467	K03517
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1468
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1469	K02035
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1470
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1471
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1472
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1473
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1474
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1475
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1476	K00453
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1477
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1478	K03655
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1479
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1480
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1481	K01887
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1482
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1484
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1485
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1486
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1487
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1488
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1489
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1490
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1491
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1492
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1493
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1494
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1495	K18353
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1496	K09936
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1497	K00140
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1498	K01464
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1499	K01431
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1500
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1501	K03457
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1502	K17722
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1503	K17723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1504
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1505
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1506
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1508
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1509	K02005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1510	K03296
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1511	K16566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1512
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1513
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1514	K08964
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1515	K08967
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1516	K09880
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1517
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1518	K16173
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1518	K00249
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1519	K02556
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1520	K02557
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1521	K02415
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1522	K02416
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1523	K02417
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1524
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1525	K00208
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1526	K03978
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1527
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1528
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1529
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1530
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1531
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1532
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1533
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1534	K09139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1535	K05366
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1536	K01879
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1537	K07009
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1538
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1539
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1540
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1541
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1542
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1543	K03072
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1544
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1545
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1546
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1547	K00997
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1548
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1549
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1550
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1551
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1552	K06024
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1553	K05896
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1554	K03529
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1555	K07263
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1556
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1557	K07461
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1558
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1559
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1560
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1561	K03701
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1562
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1563
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1564	K03574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1565
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1567
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1568	K01791
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1569	K03832
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1570
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1571	K03168
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1572
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1573
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1575
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1576
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1577	K02221
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1578	K00772
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1579
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1580
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1581	K03284
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1582
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1583	K06959
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1584
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1585	K03701
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1586
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1587
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1588
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1589
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1590
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1591
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1592	K02996
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1593	K02871
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1594
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1595	K02879
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1596	K03040
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1597	K02986
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1598	K02948
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1599	K02952
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1600	K02919
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1601	K02518
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1602	K01265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1603
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1604	K03076
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1605	K02876
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1606	K02907
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1607	K02988
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1608	K14379
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1608	K22390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1609	K14379
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1609	K22390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1610
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1611
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1612
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1613
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1614	K00756
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1615	K03783
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1616
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1617
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1618
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1619	K03928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1620
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1621
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1622
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1623
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1624	K00609
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1625	K01465
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1626
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1627
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1628
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1629
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1630	K03530
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1631
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1632
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1633
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1634	K01061
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1635
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1636
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1637
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1638
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1639	K13993
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1640	K08225
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1640	K08217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1641
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1642
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1643
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1644	K02654
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1645
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1646	K03527
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1647	K02945
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1648	K02888
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1649	K02899
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1650
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1651
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1652	K03550
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1653	K00991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1654	K00946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1655
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1656
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1657	K12511
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1658	K12510
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1659	K02283
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1660	K02282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1661
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1662	K02280
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1663	K02279
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1664
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1665
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1666
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1667	K00384
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1668
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1669
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1670
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1671	K00954
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1672	K02913
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1673	K03073
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1674	K02601
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1675	K02867
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1676	K02863
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1677	K03386
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1678
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1679	K00874
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1680	K01687
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1681	K01625
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1682	K07130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1683	K06884
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1684
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1685	K18979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1686	K01810
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1687	K05524
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1688
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1689
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1690
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1691
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1692
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1693
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1694	K03116
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1695	K03711
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1696
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1697
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1698
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1699	K07114
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1700
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1701	K03924
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1702
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1703	K18814
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1704
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1705
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1706
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1707	K11175
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1708	K01933
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1709
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1710
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1711
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1712	K21071
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1713
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1714	K06199
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1715	K05366
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1716
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1717	K03470
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1718	K14540
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1719	K02884
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1720
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1721
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1722
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1724	K01802
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1725
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1726
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1727
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1728	K03885
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1729	K06911
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1730
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1731	K19294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1732
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1733	K03098
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1734
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1735	K03501
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1736
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1737	K00762
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1738
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1739	K07107
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1740
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1741	K19003
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1741	K11936
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1742
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1743	K08217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1744	K03584
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1745
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1746	K02887
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1747	K02916
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1748	K02520
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1749
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1750	K06041
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1751
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1752
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1753
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1754
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1755	K06885
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1756	K01687
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1757
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1758
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1759	K02472
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1760
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1761
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1762
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1763
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1764
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1765
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1766	K00507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1767
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1768
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1769
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1770	K01519
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1771
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1772
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1773	K01698
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1774
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1775	K07978
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1776	K00655
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1777
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1778
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1779	K02433
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1779	K01426
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1780
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1781
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1782
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1783
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1784	K03471
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1785
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1786	K02482
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1787	K01876
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1788
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1789	K00764
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1790	K23269
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1791
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1792
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1793
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1794
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1795
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1796
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1797
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1798	K03979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1799
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1800
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1801
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1802
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1803
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1804
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1805
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1806	K01969
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1807	K00657
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1808	K03791
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1809	K25307
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1810	K07071
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1811
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1812
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1813
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1814
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1815	K03703
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1816
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1817
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1818
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1819	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1820	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1821	K06884
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1822	K06158
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1823	K16568
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1824
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1825	K03654
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1826
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1827
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1828	K01406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1829
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1830
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1831
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1832
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1833
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1834
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1835
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1836
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1837	K01640
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1838
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1839
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1840	K13766
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1841	K00864
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1842	K03602
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1843	K03601
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1844	K08999
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1845	K03100
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1846
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1847
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1848	K02860
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1849
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1850	K05595
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1851	K06223
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1852
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1853
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1854
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1855
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1856
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1857
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1858
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1859
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1860	K00031
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1861
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1862
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1863
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1864	K14742
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1865	K06925
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1866	K02356
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1867	K02160
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1868	K01961
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1869
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1870
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1871
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1872	K03702
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1873
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1874
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1875	K03551
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1876	K04487
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1877	K00926
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1878	K06153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1879
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1880
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1881
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1882	K02956
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1883	K00962
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1884	K01585
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1885
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1886
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1887	K00927
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1888	K02434
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1889
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1890
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1891
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1892
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1893
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1894
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1895
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1896
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1897
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1898	K14379
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1899
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1900	K02805
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1901	K20534
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1902	K01739
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1903	K00641
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1904
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1905
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1906	K01738
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1906	K12339
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1907
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1908
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1909	K02398
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1910	K10773
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1911
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1912
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1913
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1914	K02470
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1915	K04066
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1916	K05527
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1917	K09768
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1918	K01256
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1919
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1920
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1921
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1922
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1923
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1924
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1925
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1926
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1927
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1929
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1930
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1931	K07644
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1932	K02483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1933	K01673
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1934
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1935
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1936	K00948
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1937
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1938
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1939
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1940	K02346
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1941
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1942
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1943
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1944	K02651
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1945
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1947
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1948
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1949
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1950
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1951
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1952
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1953
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1954
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1955	K03294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1956
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1957
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1958
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1959	K00456
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1960	K02495
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1961
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1962
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1963	K06940
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1964
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1965
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1966
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1967
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1968
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1969
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1970
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1971
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1972	K02407
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1973
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1974
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1975
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1976
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1977
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1978
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1980
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1981	K00525
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1982	K03782
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1983	K01595
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1984
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1985	K26272
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1986	K19802
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1987
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1988	K03521
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1989	K03522
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1990	K00311
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1991	K09760
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1992
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1993
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1994
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1995	K25706
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1996
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1997
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1998	K00891
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq1999	K01735
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2000	K06187
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2001	K09747
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2002
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2003
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2004
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2005
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2006
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2007
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2008
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2009
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2010
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2011
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2012
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2013
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2014
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2015
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2016
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2017	K15894
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2018	K02501
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2019
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2020
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2021
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2022
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2023	K01624
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2024
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2025
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2026
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2027
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2028
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2029
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2030
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2031
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2032
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2033
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2034	K06213
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2035
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2036
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2037
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2038	K11785
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2039
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2040
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2041
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2042
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2043
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2044
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2045
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2046	K07636
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2047	K02343
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2048	K04763
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2049	K02669
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2050
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2051
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2052
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2053	K09001
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2054	K07015
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2055	K08303
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2056	K02469
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2057
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2058	K07483
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2059
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2060
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2061
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2062
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2063
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2064
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2065
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2066
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2067
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2068
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2069
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2070
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2071
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2072
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2073
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2074
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2075
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2076	K07460
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2077
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2078
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2079
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2080	K01259
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2081
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2082
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2083	K19784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2084	K07100
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2085	K08651
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2085	K14645
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2086	K07304
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2087
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2088
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2089	K04079
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2090
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2091
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2092
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2093
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2094
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2095	K02967
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2096	K02357
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2097	K09903
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2098
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2099
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2100
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2101
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2102	K00248
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2102	K00249
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2103	K01069
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2104	K00019
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2105
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2106	K00003
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2107	K01733
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2108	K00872
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2109
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2110
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2112	K00507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2113	K06954
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2114	K09701
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2115	K00574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2116
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2117
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2118
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2119
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2120	K18208
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2121
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2122
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2123
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2124
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2125
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2126	K11004
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2127	K11003
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2128	K01406
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2129
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2131
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2132
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2133	K07723
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2134
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2135	K03320
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2136	K06445
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2137	K00626
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2138	K07516
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2139
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2140
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2141	K03168
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2142	K05592
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2143
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2144
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2145
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2146	K00020
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2147
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2148
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2149
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2150	K06415
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2151	K07180
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2152
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2154
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2155
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2156
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2157
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2158
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2159	K09822
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2160	K10778
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2161
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2162	K04488
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2163	K11717
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2164	K09015
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2165	K09013
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2166	K09014
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2167
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2168
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2169	K02909
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2170	K02835
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2171
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2172	K03703
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2173
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2174
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2175
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2176
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2177
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2178	K00088
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2179
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2180	K03177
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2181
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2182
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2183
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2184
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2185
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2186
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2187
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2188	K16566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2189
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2190	K20922
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2191
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2192
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2193
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2194
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2195
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2196	K05946
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2197	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2198	K02472
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2199
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2200	K01737
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2201	K01737
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2202	K09007
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2203
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2204	K07053
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2205	K05799
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2205	K07979
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2206	K00147
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2207	K00931
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2208	K03147
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2209	K03153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2210	K03154
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2211	K03149
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2212	K14153
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2212	K00788
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2213
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2214
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2215	K01480
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2216	K00797
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2217
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2218
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2219
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2220
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2221
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2222	K07507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2223
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2224
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2225	K03789
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2226	K03523
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2227	K07160
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2228	K06958
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2229
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2230	K00606
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2231	K01918
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2232	K19221
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2233
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2234
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2235
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2236
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2237
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2238
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2239
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2240	K09125
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2241	K00859
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2242
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2243
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2244
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2245	K07636
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2246	K16264
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2247	K00819
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2248	K00286
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2249	K02913
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2250
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2251	K07305
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2252	K07130
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2253
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2254
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2255
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2256
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2257
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2258	K00969
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2259
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2260
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2261
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2262
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2263	K02337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2264
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2265
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2266
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2267
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2268
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2269
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2270
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2271
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2272
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2273
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2274
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2275
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2276	K01586
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2277	K18672
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2278
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2279
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2280
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2281
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2283	K02841
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2284
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2285	K02968
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2286
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2287
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2288	K02418
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2289	K02419
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2290
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2291	K02421
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2292	K00525
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2293
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2294	K00175
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2295	K00174
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2296
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2297
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2298
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2299	K07100
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2300
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2301	K07566
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2302	K03564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2303	K02003
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2304	K02004
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2305
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2306
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2307
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2308
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2309
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2310	K03696
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2311
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2312
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2313
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2314
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2315	K07447
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2316	K08678
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2317	K00012
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2318
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2319	K08679
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2319	K01784
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2320	K10206
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2321	K06985
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2322
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2323	K03631
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2324	K00858
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2325	K02335
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2326	K04096
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2327	K01627
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2328	K02338
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2329	K03629
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2330
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2331
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2332	K03797
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2333
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2334	K11753
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2335
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2336
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2337
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2338	K00783
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2339
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2340
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2341
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2342
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2343
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2344
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2345
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2346
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2347	K06920
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2348	K01443
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2349
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2350	K03797
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2351	K01489
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2352	K02031
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2353
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2354
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2355
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2356
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2357
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2358
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2359
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2360
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2361
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2362
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2363
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2364
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2365
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2366
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2367	K02959
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2368
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2369
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2370
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2371
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2372
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2373	K09774
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2374	K06861
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2375
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2376
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2377
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2378
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2379
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2380	K02419
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2381	K02420
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2382	K02421
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2383	K02401
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2384	K02400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2385
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2386
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2387	K00943
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2388	K03282
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2389
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2390
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2391
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2392	K14340
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2393
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2394
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2395	K03775
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2396
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2397
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2398
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2399	K06006
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2400
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2401
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2402
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2403	K25180
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2403	K01992
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2404	K25181
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2404	K01992
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2405	K25182
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2405	K01990
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2406	K25183
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2407	K23777
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2408
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2409	K01489
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2410
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2411	K01934
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2412
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2413
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2414
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2415
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2416
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2417
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2418
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2419
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2420
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2421	K09131
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2422	K01892
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2423	K00989
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2424
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2425
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2426
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2427
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2428
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2429	K00793
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2430	K14652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2431	K00794
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2432	K17836
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2433
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2434
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2435
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2436
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2437
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2438
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2439
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2440	K11749
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2441
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2442
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2443	K00616
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2444	K06985
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2445
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2446	K11443
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2447
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2448
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2449
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2450	K06985
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2451
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2452
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2453
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2454
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2455	K03685
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2456	K00981
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2457	K02838
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2458
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2459
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2460	K00791
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2461
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2462
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2463
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2464
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2465	K03657
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2466
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2467	K03664
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2468
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2469
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2470
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2471
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2472
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2473
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2474
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2475
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2476	K03469
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2477
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2478	K22074
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2479
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2480	K00652
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2481
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2482
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2483	K04749
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2484
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2485
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2486
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2487	K06941
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2488	K01356
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2489	K03737
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2490	K00170
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2491
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2492
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2493
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2494
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2495	K13283
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2496
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2497
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2498
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2499
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2500	K03070
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2501
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2502	K02115
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2503	K02111
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2504	K02113
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2505	K02109
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2506	K02109
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2507
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2508	K02108
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2509
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2510
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2511	K09767
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2512	K14441
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2513
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2514	K03587
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2515	K01928
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2516	K01924
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2517	K00075
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2518	K01921
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2519	K03589
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2520	K00215
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2521	K01752
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2522	K01752
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2523
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2524	K00759
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2525	K07462
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2526
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2527	K01972
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2528
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2529
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2530
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2531	K01991
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2532
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2533
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2534
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2535
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2536	K00661
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2537
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2538
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2539
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2540
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2541
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2542
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2543	K14059
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2544
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2545
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2546
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2547
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2548	K17680
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2549
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2550
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2551
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2552
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2553
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2554	K15192
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2555	K02564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2556
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2557	K01790
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2558	K03294
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2559
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2560	K01262
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2561
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2562
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2563	K02401
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2565
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2566	K01990
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2567	K01992
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2568
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2569
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2570	K07568
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2571
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2572
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2573	K00611
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2574
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2575	K03787
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2576
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2577	K02902
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2578
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2579
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2580	K13018
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2581	K13017
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2582
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2583
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2584
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2585
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2586
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2587
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2588	K01951
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2589	K01868
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2590	K20542
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2591	K04564
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2592
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2593	K17244
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2594
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2595	K03424
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2596
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2597	K01874
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2598
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2599
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2600
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2601
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2602	K01768
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2603	K02651
+GCA_903839075.1_freshwater_MAG_---_Umea1p3_bin-338_genomic_seq2604
